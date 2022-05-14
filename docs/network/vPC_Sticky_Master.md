@@ -1,6 +1,9 @@
 ---
 index: 112
+icon: cisco
+author: Cisco
 title: Cisco Nexus vPC 之 Sticky Master
+date: 2022-05-14
 category:
   - 网络
   - 交换机
@@ -68,9 +71,21 @@ vpc domain 110 priority 32768
 
 ------
 
-转载至：
+转载至：  
 
-【1】https://community.cisco.com/t5/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%88%9B-cisco-nexus-vpc-%E4%B9%8B-sticky-master/ta-p/4345018
+【1】  
 
-参考：
-【1】http://www.cisco.com/c/en/us/support/docs/interfaces-modules/nexus-7000-series-supervisor-1-module/119033-technote-nexus-00.html?dtid=osscdc000283
+https://community.cisco.com/t5/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%88%9B-cisco-nexus-vpc-%E4%B9%8B-sticky-master/ta-p/4345018
+
+
+
+参考：  
+【1】  http://www.cisco.com/c/en/us/support/docs/interfaces-modules/nexus-7000-series-supervisor-1-module/119033-technote-nexus-00.html?dtid=osscdc000283
+
+【2】  Understand the vPC Election Process  
+
+https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/nx-os-software/212589-understanding-vpc-election-process.html#anc11
+
+【3】Nexus 7000 Chassis Replacement Procedure  
+
+https://www.cisco.com/c/en/us/support/docs/interfaces-modules/nexus-7000-series-supervisor-1-module/119033-technote-nexus-00.html?dtid=osscdc000283#anc9
