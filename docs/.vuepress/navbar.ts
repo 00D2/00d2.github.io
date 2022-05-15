@@ -18,7 +18,17 @@ export default navbar([
       },
     ],
   },
-  { text: "网络技术", icon: "network", link: "/network/" },
+  { 
+    text: "网络技术",
+    icon: "network",
+    children:[
+      {
+        text: "Cisco",
+        icon: "cisco",
+        link: "/network/cisco/"
+      },
+    ],  
+  },
   { 
     text: "工具",
     icon: "tool",
