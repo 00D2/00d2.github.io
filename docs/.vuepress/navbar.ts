@@ -95,6 +95,11 @@ export default navbar([
         icon: "hot",
         link: "https://www.ruanyifeng.com/",
       },
+      {
+        text: "Torrk's Blog",
+        icon: "hot",
+        link: "https://conimi.com/",
+      },
     ],
   },
   { text: "关于", icon: "about", link: "/about/" },
