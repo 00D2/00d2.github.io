@@ -13,9 +13,17 @@ tag:
   - vPC
 ---
 
-# Cisco Nexus vPC 之 Sticky Master
+转载至：  
 
-**场景**
+【1】  
+
+https://community.cisco.com/t5/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%88%9B-cisco-nexus-vpc-%E4%B9%8B-sticky-master/ta-p/4345018
+
+
+
+## Cisco Nexus vPC 之 Sticky Master
+
+### 场景
 
 生产环境里，我们经常把其中的一台Nexus交换机从vPC domain中独立出来，比如升级或灾备演练等情况。但是其中一个细节即Sticky Master的状态很少有人会注意到，因此这可能导致网络中断。
 
@@ -68,14 +76,6 @@ N7K-1由于一直是Primary，Sticky Master一直是FALSE，N7K-2由于role由Se
 vpc domain 110 priority 32768
 
 2.如果配置优先级无法重置，那只有重启设备了。
-
-------
-
-转载至：  
-
-【1】  
-
-https://community.cisco.com/t5/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E6%96%87%E6%A1%A3/%E5%8E%9F%E5%88%9B-cisco-nexus-vpc-%E4%B9%8B-sticky-master/ta-p/4345018
 
 
 
