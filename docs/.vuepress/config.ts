@@ -1,8 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
-//import docsearchPlugin from "@vuepress/plugin-docsearch";
-import { searchPlugin } from "@vuepress/plugin-search";
+//import { searchPlugin } from "@vuepress/plugin-search";
 import theme from "./theme";
 
 
@@ -33,12 +32,12 @@ export default defineUserConfig({
       tasklist: true,
     }),
     copyCodePlugin,
-    searchPlugin({
-      locales: {
-        "/": {
-          placeholder: "搜索",
-        },
-      },
-    }),
+    //searchPlugin({
+    //  locales: {
+    //    "/": {
+    //      placeholder: "搜索",
+    //    },
+    //  },
+    //}),
   ],
 });
