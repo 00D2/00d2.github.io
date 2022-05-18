@@ -1,8 +1,8 @@
 ---
 index: false
 icon: linux
-title: Linux
 author: 小苹果儿
+title: Linux
 date: 2022-05-04
 category:
   - 操作系统
