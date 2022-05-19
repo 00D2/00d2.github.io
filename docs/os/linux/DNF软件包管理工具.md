@@ -10,7 +10,8 @@ tag:
   - linux
   - shell
 ---
-# DNF软件包管理器
+
+## DNF软件包管理器
 
 dnf是新一代的rpm软件包管理器。首次出现在 Fedora 18 这个发行版中。而最近，它取代了yum，正式成为 Fedora 22 的包管理器。
 

@@ -1,24 +1,23 @@
 ---
+icon: git
 author: hanyuntao
-link: https://www.jianshu.com/p/c70ca3a02087
 title: git上传文件
+date: 2017-03-31
+category:
+  - git
+  - github
+tag:
+  - git
+  - github
 ---
 
 
 
 # 两种方法上传本地文件到github
 
-[![img](https://upload.jianshu.io/users/upload_avatars/3067059/be1a563d-617c-4de6-b8f2-7bd47ff92c58.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp)](https://www.jianshu.com/u/cc07c1b21b4b)
 
-[hanyuntao](https://www.jianshu.com/u/cc07c1b21b4b)关注
-
-22017.03.31 12:20:23字数 796阅读 125,300
 
 自从使用github以来，一直都是在[github网站](https://link.jianshu.com/?t=https://github.com/)在线上传文件到仓库中，但是有时因为网络或者电脑的原因上传失败。最重要的原因是我习惯本地编辑，完成以后再一起上传github。看过了几个教程，总结出最适合自己的比较简单的方法。
-
-![img](https://upload-images.jianshu.io/upload_images/3067059-b21b7d006acb6397.png?imageMogr2/auto-orient/strip|imageView2/2/w/300/format/webp)
-
-两种方法上传本地文件到github
 
 #### 1. github在线上传文件夹
 
@@ -209,27 +208,10 @@ cd d:text
 
 ** 注意：git是不能管理空的文件夹的，文件夹里必须有文件才能上传。 **
 
-参考资料：[git中sshkey有何作用？](https://link.jianshu.com/?t=https://segmentfault.com/q/1010000000118744)
-[github入门到上传本地项目](https://link.jianshu.com/?t=http://www.cnblogs.com/specter45/p/github.html)
 
 
+---
 
-108人点赞
+原文链接：https://www.jianshu.com/p/c70ca3a02087
 
-
-
-[实用教程](https://www.jianshu.com/nb/11337302)
-
-
-
-更多精彩内容，就在简书APP
-
-"喜欢的话请关注我，我会不断努力总结更多东西给大家。如果觉得我的文章对您有用，请随意打赏。您的支..."
-
-赞赏支持还没有人赞赏，支持一下
-
-[![  ](https://upload.jianshu.io/users/upload_avatars/3067059/be1a563d-617c-4de6-b8f2-7bd47ff92c58.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/100/h/100/format/webp)](https://www.jianshu.com/u/cc07c1b21b4b)
-
-[hanyuntao](https://www.jianshu.com/u/cc07c1b21b4b)产品经理与运营<br>
-
-总资产13共写了2.3W字获得263个赞共90个粉丝
+原作者：https://www.jianshu.com/u/cc07c1b21b4b

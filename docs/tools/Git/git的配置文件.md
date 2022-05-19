@@ -9,13 +9,9 @@ link: "https://www.jianshu.com/p/1ae2ff6c90de"
 
 # Git学习之查看config配置
 
-[![img](https://cdn2.jianshu.io/assets/default_avatar/2-9636b13945b9ccf345bc98d0d81074eb.jpg)](https://www.jianshu.com/u/e529b37dc57d)
-
 [RebeccaYan](https://www.jianshu.com/u/e529b37dc57d)关注
 
-2017.11.16 19:25:23字数 175阅读 11,412
-
-git的配置指令是 `git config`。用于配置git的用户，邮箱，域名等信息。详细信息可参考[git-scm.com](https://link.jianshu.com/?t=https://git-scm.com/)的[git-config](https://link.jianshu.com/?t=https://git-scm.com/docs/git-config)。
+git的配置指令是 `git config`。用于配置git的用户，邮箱，域名等信息。详细信息可参考[git-scm.com](https://git-scm.com/)的[git-config](https://git-scm.com/docs/git-config)。
 
 config配置有3个层级：
 
