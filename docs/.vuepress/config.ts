@@ -34,7 +34,7 @@ export default defineUserConfig({
     copyCodePlugin,
     docsearchPlugin({
       appId: "2ANWAH89K3",
-      apiKey: "3c3537b374ec5641752d2b7dc36d133e",
+      apiKey: "28042d2957ba183bd866b530a0d296c6",
       indexName: "website_tk",
       locales: {
         "/": {
