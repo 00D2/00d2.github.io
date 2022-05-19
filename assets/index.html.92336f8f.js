@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{c as t,o,a,e as r}from"./app.2581f866.js";const s={},c={id:"git",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#git","aria-hidden":"true"},"#",-1),i=r(" Git"),n=[_,i];function d(h,f){return o(),t("h1",c,n)}var x=e(s,[["render",d],["__file","index.html.vue"]]);export{x as default};
