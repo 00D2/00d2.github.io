@@ -1,4 +1,5 @@
 ---
+icon: git
 title: git的配置文件
 author: RebeccaYan
 date: 2022-05-04

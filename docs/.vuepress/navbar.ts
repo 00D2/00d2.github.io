@@ -45,7 +45,7 @@ export default navbar([
       },
       {
         text: "Travis CI",
-        icon: "git",
+        icon: "travisci",
         link: "/tools/Travis CI/",
       },
       {
@@ -55,12 +55,12 @@ export default navbar([
       },
       {
         text: "K8S",
-        icon: "docker",
+        icon: "kubernetes",
         link: "/tools/K8S/",
       },
       {
         text: "Vuepress",
-        icon: "vuepress",
+        icon: "vue",
         link: "/tools/Vuepress/",
       },
   ]},

@@ -1,5 +1,7 @@
 ---
+icon: git
 author: potao1314
+title: git修改远程仓库地址
 date: 2019-07-18
 category:
   - Git
@@ -7,9 +9,7 @@ tag:
   - git
 ---
 
-
-
-## git修改远程仓库地址
+### 远程仓库地址
 
 
 相信很多人遇到过现有的项目修改仓库地址的情况

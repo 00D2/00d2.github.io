@@ -9,7 +9,7 @@ export const cisco = arraySidebar([
     children:[
       //"",
       "vPC_Sticky_Master",
-      "vPC-Auto-Recovery特性配置实例",
+      "vpcAutoRecoveryConfiguration",
     ],
   },
 ]);

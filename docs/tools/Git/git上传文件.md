@@ -25,7 +25,7 @@ tag:
 
 ##### 1.1点击上传文件
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-3dc3ff655f5826e9.png?imageMogr2/auto-orient/strip|imageView2/2/w/985/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-3dc3ff655f5826e9.png)
 
 点击上传
 
@@ -35,7 +35,7 @@ tag:
 
 
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-1433fee4d699a53e.png?imageMogr2/auto-orient/strip|imageView2/2/w/981/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-1433fee4d699a53e.png)
 
 直接拖拽
 
@@ -43,13 +43,13 @@ tag:
 
 ##### 2.1 下载[git工具](https://link.jianshu.com/?t=https://git-scm.com/downloads)
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-0ff2c754d4888bb4.png?imageMogr2/auto-orient/strip|imageView2/2/w/989/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-0ff2c754d4888bb4.png)
 
 选择对应版本下载
 
 ##### 2.2 下载完成后安装完成，注意在安装过程中可以选择创建桌面快捷方式
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-fa7d131432a1232e.png?imageMogr2/auto-orient/strip|imageView2/2/w/503/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-fa7d131432a1232e.png)
 
 桌面快捷方式
 
@@ -57,7 +57,7 @@ tag:
 
 打开git-bash.exe（直接在桌面上点击右键，或者点击开始按钮找到Git Bash）
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-a232cbd6d250296e.gif?imageMogr2/auto-orient/strip|imageView2/2/w/592/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-a232cbd6d250296e.gif)
 
 运行gitBash.gif
 
@@ -72,7 +72,7 @@ $ git config --global user.name "hanyuntao"
 $ git config --global user.email "hanyuntaocn@163.com"
 ```
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-f2c6c88dca3cb4f1.png?imageMogr2/auto-orient/strip|imageView2/2/w/514/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-f2c6c88dca3cb4f1.png)
 
 Paste_Image.png
 
@@ -82,7 +82,7 @@ Paste_Image.png
 
 首先检查是否已生成密钥`cd ~/.ssh`，如果返回的`ls`有3个文件,则密钥已经生成。
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-18adb5b6ca265756.png?imageMogr2/auto-orient/strip|imageView2/2/w/274/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-18adb5b6ca265756.png)
 
 密钥生成
 
@@ -99,7 +99,7 @@ $ ssh-keygen -t rsa -C "hanyuntaocn@163.com"
 生成，生成过程中一路按3次回车键就好了。（默认路径，默认没有密码登录）
 生成成功后，去对应目录C:\Users\hyt.ssh里（hyt为电脑用户名，每个人不同）用记事本打开id_rsa.pub，得到ssh key公钥。
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-ef6cb51d5ad31445.png?imageMogr2/auto-orient/strip|imageView2/2/w/569/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-ef6cb51d5ad31445.png)
 
 ssh key公钥
 
@@ -107,7 +107,7 @@ ssh key公钥
 
 切换到github，展开个人头像的小三角，点击settings，然后打开SSH keys菜单， 点击Add SSH key新增密钥，填上标题（最好跟本地仓库保持一致）。
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-1aba5aba10165470.gif?imageMogr2/auto-orient/strip|imageView2/2/w/1026/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-1aba5aba10165470.gif)
 
 设置sshkey.gif
 
@@ -123,7 +123,7 @@ ssh key公钥
 
 
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-2a5f6b6ff4ae9c95.png?imageMogr2/auto-orient/strip|imageView2/2/w/558/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-2a5f6b6ff4ae9c95.png)
 
 本地项目
 
@@ -137,13 +137,13 @@ ssh key公钥
 cd d:text
 ```
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-2b398f0122f722cb.png?imageMogr2/auto-orient/strip|imageView2/2/w/257/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-2b398f0122f722cb.png)
 
 首先进入text文件夹
 
 2.执行指令：`git init`
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-71817641532ad828.png?imageMogr2/auto-orient/strip|imageView2/2/w/352/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-71817641532ad828.png)
 
 执行git init
 
@@ -151,21 +151,21 @@ cd d:text
 
 
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-ac953ff8977c72db.png?imageMogr2/auto-orient/strip|imageView2/2/w/738/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-ac953ff8977c72db.png)
 
 隐藏的文件夹
 
 3.执行指令：`git add .`
 将所有文件添加到仓库
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-fd5b779ebc45f4ba.png?imageMogr2/auto-orient/strip|imageView2/2/w/318/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-fd5b779ebc45f4ba.png)
 
 执行git add .
 
 4.执行指令：`git commit -m "提交文件"`
 双引号内是提交注释。
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-b4be356b146b06ff.png?imageMogr2/auto-orient/strip|imageView2/2/w/312/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-b4be356b146b06ff.png)
 
 提交文件
 
@@ -175,16 +175,15 @@ cd d:text
 
 
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-29c5089e9fd4b637.png?imageMogr2/auto-orient/strip|imageView2/2/w/1007/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-29c5089e9fd4b637.png)
 
 复制仓库地址
-
 
 2.执行指令：`git remote add origin https://github.com/hanyuntao/text.git`
 
 
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-eeaf4b58df1f142f.png?imageMogr2/auto-orient/strip|imageView2/2/w/455/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-eeaf4b58df1f142f.png)
 
 执行指令
 
@@ -192,7 +191,7 @@ cd d:text
 
 执行指令：`git push -u origin master`
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-22f6fe754c8e3267.png?imageMogr2/auto-orient/strip|imageView2/2/w/437/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-22f6fe754c8e3267.png)
 
 执行指令
 
@@ -202,7 +201,7 @@ cd d:text
 
 
 
-![img](https://upload-images.jianshu.io/upload_images/3067059-2b4264842851800a.png?imageMogr2/auto-orient/strip|imageView2/2/w/1014/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/3067059-2b4264842851800a.png)
 
 完成了
 
