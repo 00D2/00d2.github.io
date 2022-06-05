@@ -9,18 +9,16 @@
     "docs:dev": "vuepress dev docs"
   },
   "devDependencies": {
-    "@algolia/client-search": "4.9.1",
     "@types/react": "^18.0.11",
-    "@vuepress/client": "^2.0.0-beta.45",
-    "@vuepress/plugin-docsearch": "2.0.0-beta.45",
+    "@vuepress/client": "2.0.0-beta.46",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.46",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "typescript": "4.8.0-dev.20220604",
     "vue": "^3.2.36",
     "vuepress": "2.0.0-beta.46",
-    "vuepress-plugin-md-enhance": "2.0.0-beta.56",
+    "vuepress-plugin-copy-code2": "2.0.0-beta.77",
+    "vuepress-plugin-md-enhance": "2.0.0-beta.77",
     "vuepress-theme-hope": "2.0.0-beta.77"
-  },
-  "dependencies": {
-    "vuepress-plugin-copy-code2": "2.0.0-beta.56"
   }
 }
