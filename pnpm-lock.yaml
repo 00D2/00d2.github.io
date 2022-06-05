@@ -4888,7 +4888,7 @@ packages:
       - supports-color
     dev: true
 
-  /vuepress-vite/2.0.0-beta.46_n4rffxklnidyxbcijdu3ibrqha:
+  /vuepress-vite/2.0.0-beta.46:
     resolution: {integrity: sha512-ewXbzX1zG9WR48E98v8nsTd07QypbLWkonzjTrLPO6Kqye4KRrSs77LN4xHRQ4lDs/NSqCH7nw6gUT+KJOwByw==}
     hasBin: true
     peerDependencies:
@@ -4910,11 +4910,11 @@ packages:
       - supports-color
     dev: true
 
-  /vuepress/2.0.0-beta.46_n4rffxklnidyxbcijdu3ibrqha:
+  /vuepress/2.0.0-beta.46:
     resolution: {integrity: sha512-5aDb1PiSjU4w/66YnQkaodcocAwkGEjtPv7Ux4dqEh8W+IjVqYcedg2syI5NuBrcAkNh9uq/6CTFibrZ6eyR2w==}
     hasBin: true
     dependencies:
-      vuepress-vite: 2.0.0-beta.46_n4rffxklnidyxbcijdu3ibrqha
+      vuepress-vite: 2.0.0-beta.46
     transitivePeerDependencies:
       - '@vue/composition-api'
       - '@vuepress/client'
