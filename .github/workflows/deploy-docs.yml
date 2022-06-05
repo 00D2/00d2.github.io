@@ -30,17 +30,17 @@ jobs:
           node-version: 16
           cache: pnpm
 
-#      - uses: actions/cache@v3
-#        id: node-modules
-#        with:
-#          path: node_modules/
-#          key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
-#          restore-keys: |
-#            ${{ runner.os }}-node-modules-
-#
-#      - name: 安装依赖
-#        if: steps.node-modules.outputs.cache-hit != 'true'
-#        run: pnpm install --frozen-lockfile
+      - uses: actions/cache@v3
+        id: node-modules
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-
+
+      - name: 安装依赖
+        if: steps.node-modules.outputs.cache-hit != 'true'
+        run: pnpm install --frozen-lockfile
 
       - name: 构建文档
         env:
