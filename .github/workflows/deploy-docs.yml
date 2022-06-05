@@ -30,6 +30,19 @@ jobs:
           node-version: 16
           cache: pnpm
 
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: |
+          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
 #      - name: Cache dependencies
 #        uses: actions/cache@v3
 #        id: node-modules
@@ -39,9 +52,9 @@ jobs:
 #          restore-keys: |
 #            ${{ runner.os }}-node-modules-
 #
-#      - name: 安装依赖
-#        if: steps.node-modules.outputs.cache-hit != 'true'
-#        run: pnpm install --frozen-lockfile
+      - name: 安装依赖
+        if: steps.node-modules.outputs.cache-hit != 'true'
+        run: pnpm install 
 
       - name: 构建文档
         env:
