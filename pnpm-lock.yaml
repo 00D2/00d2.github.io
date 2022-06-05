@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@algolia/client-search': 4.13.1
   '@types/react': ^18.0.11
   '@vuepress/client': 2.0.0-beta.46
   '@vuepress/plugin-docsearch': 2.0.0-beta.46
@@ -14,6 +15,7 @@ specifiers:
   vuepress-theme-hope: 2.0.0-beta.77
 
 devDependencies:
+  '@algolia/client-search': 4.13.1
   '@types/react': 18.0.11
   '@vuepress/client': 2.0.0-beta.46
   '@vuepress/plugin-docsearch': 2.0.0-beta.46_zvt3kh6vtxobxb4gmt75nlt57a
