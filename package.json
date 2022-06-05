@@ -15,8 +15,8 @@
 	  "react": "18.1.0",
 	  "react-dom": "18.1.0",
 	  "vue": "3.2.36",
-	  "vuepress-plugin-copy-code2": "2.0.0-beta.77",
-	  "vuepress-plugin-md-enhance": "2.0.0-beta.77"
+	  "vuepress-plugin-copy-code2": "2.0.0-beta.78",
+	  "vuepress-plugin-md-enhance": "2.0.0-beta.78"
 	},
 	"dependencies": {
 	  "vuepress": "2.0.0-beta.46",
