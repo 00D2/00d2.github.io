@@ -55,5 +55,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}   /* 注意：这行是新加的 */
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
-#          folder: docs/.vuepress/dist
+          folder: docs/.vuepress/dist
 
