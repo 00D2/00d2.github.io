@@ -18,6 +18,7 @@ date: 2022-05-15
 
 ### 2022年
 
+- `2022-06-05`升级[vuepress-theme-hope](https://vuepress-theme-hope.github.io/)；增加Ansible。
 - `2022-05-19` 升级[vuepress-theme-hope](https://vuepress-theme-hope.github.io/)；重新使用[docsearch](https://v2.vuepress.vuejs.org/zh/reference/plugin/docsearch.html)。
 - `2022-05-18` 升级[vuepress](https://v2.vuepress.vuejs.org/)&[vuepress-theme-hope](https://vuepress-theme-hope.github.io/)主题；放弃docsearch，改用 [`@vuepress/plugin-search`](https://v2.vuepress.vuejs.org/zh/reference/plugin/search.html)
 - `2022-05-15` 调整network导航；研究[docsearch](https://v2.vuepress.vuejs.org/zh/reference/plugin/docsearch.html)。

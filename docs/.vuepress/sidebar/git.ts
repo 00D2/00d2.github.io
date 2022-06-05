@@ -6,4 +6,6 @@ export const git = arraySidebar([
   "git上传文件",
   "git的配置文件",
   "git报ssl错误解决方法",
+  "git_cmd中文乱码",
+  
 ]);

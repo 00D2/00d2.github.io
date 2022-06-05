@@ -11,6 +11,6 @@ tag:
 
 # Nexus vPC
 
-- [Auto Recovery](vPC-Auto-Recovery特性配置实例.md)
+- [Auto Recovery](vpcAutoRecoveryConfiguration.md)
 - [Sticky Master](vPC_Sticky_Master.md)
 

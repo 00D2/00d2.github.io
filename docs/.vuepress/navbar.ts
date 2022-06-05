@@ -39,6 +39,11 @@ export default navbar([
         link: "/tools/Git/",
       },
       {
+        text: "Ansible",
+        icon: "ansible",
+        link: "/tools/Ansible/",
+      },
+      {
         text: "Travis CI",
         icon: "git",
         link: "/tools/Travis CI/",

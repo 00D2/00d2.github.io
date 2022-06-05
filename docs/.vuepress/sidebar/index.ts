@@ -4,6 +4,7 @@ import { windows } from "./windows";
 import { network } from "./network";
 import { cisco } from "./cisco";
 import { git } from "./git";
+import { ansible } from "./ansible";
 
 export const paSidebarConig = sidebar({
   "/os/linux/": linux,
@@ -11,6 +12,7 @@ export const paSidebarConig = sidebar({
   "/network/": network,
   "/network/cisco/": cisco,
   "/tools/Git/": git,
+  "/tools/Ansible/": ansible,
 });
 
 //export default sidebar([

@@ -24,7 +24,7 @@ export default hopeTheme({
   
     // sidebar
     sidebar: paSidebarConig,
-    headerDepth: 4,
+    headerDepth: 2,
 
     //footer: "MIT Licensed | Copyright © 2022-present 小苹果儿",
   
