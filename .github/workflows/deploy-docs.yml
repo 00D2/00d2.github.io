@@ -45,7 +45,7 @@ jobs:
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm docs:vite-build
+        run: pnpm docs:build
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
@@ -55,5 +55,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}   /* 注意：这行是新加的 */
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
-          folder: docs/.vuepress/dist
+#          folder: docs/.vuepress/dist
 
