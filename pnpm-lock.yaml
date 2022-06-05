@@ -18,12 +18,12 @@ devDependencies:
   '@algolia/client-search': 4.13.1
   '@types/react': 18.0.11
   '@vuepress/client': 2.0.0-beta.46
-  '@vuepress/plugin-docsearch': 2.0.0-beta.46_zvt3kh6vtxobxb4gmt75nlt57a
+  '@vuepress/plugin-docsearch': 2.0.0-beta.46
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   typescript: 4.8.0-dev.20220604
   vue: 3.2.36
-  vuepress: 2.0.0-beta.46_n4rffxklnidyxbcijdu3ibrqha
+  vuepress: 2.0.0-beta.46
   vuepress-plugin-copy-code2: 2.0.0-beta.77
   vuepress-plugin-md-enhance: 2.0.0-beta.77
   vuepress-theme-hope: 2.0.0-beta.77
@@ -1288,10 +1288,10 @@ packages:
     resolution: {integrity: sha512-bh5IskwkkodbvC0FzSg1AxMykfDl95hebEKwxNoq4e5QaGzOXSBgW8+jnMFZ7JU4sTBiB04vZWoUSzNrPboLZA==}
     dev: true
 
-  /@docsearch/js/3.1.0_zvt3kh6vtxobxb4gmt75nlt57a:
+  /@docsearch/js/3.1.0:
     resolution: {integrity: sha512-5XSK+xbP0hcTIp54MECqxkWLs6kf7Ug4nWdxWNtx8cUpLiFNFnKXDxCb35wnyNpjukmrx7Q9DkO5tFFsmNVxng==}
     dependencies:
-      '@docsearch/react': 3.1.0_zvt3kh6vtxobxb4gmt75nlt57a
+      '@docsearch/react': 3.1.0
       preact: 10.7.3
     transitivePeerDependencies:
       - '@types/react'
@@ -1299,7 +1299,7 @@ packages:
       - react-dom
     dev: true
 
-  /@docsearch/react/3.1.0_zvt3kh6vtxobxb4gmt75nlt57a:
+  /@docsearch/react/3.1.0:
     resolution: {integrity: sha512-bjB6ExnZzf++5B7Tfoi6UXgNwoUnNOfZ1NyvnvPhWgCMy5V/biAtLL4o7owmZSYdAKeFSvZ5Lxm0is4su/dBWg==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
@@ -1737,12 +1737,12 @@ packages:
       - supports-color
     dev: true
 
-  /@vuepress/plugin-docsearch/2.0.0-beta.46_zvt3kh6vtxobxb4gmt75nlt57a:
+  /@vuepress/plugin-docsearch/2.0.0-beta.46:
     resolution: {integrity: sha512-QEX0+ztqfRu1/dlQ++k/+4WFo3cv8Aq14lSA8ZuI6Uib86uKKItQ130OxOdn0zmP3DiU4xMgHn6Qx8t7iM1Twg==}
     dependencies:
       '@docsearch/css': 3.1.0
-      '@docsearch/js': 3.1.0_zvt3kh6vtxobxb4gmt75nlt57a
-      '@docsearch/react': 3.1.0_zvt3kh6vtxobxb4gmt75nlt57a
+      '@docsearch/js': 3.1.0
+      '@docsearch/react': 3.1.0
       '@vuepress/client': 2.0.0-beta.46
       '@vuepress/core': 2.0.0-beta.46
       '@vuepress/shared': 2.0.0-beta.46
