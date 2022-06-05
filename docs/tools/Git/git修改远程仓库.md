@@ -38,6 +38,17 @@ git remote add origin [url]
 git pull origin master --allow-unrelated-histories
 ```
 
+### 添加远程仓库
+
+```shell
+git remote add origin [url]  
+```
+
+```shell
+git remote -v
+```
+
+
 
 ---
 原文链接： https://segmentfault.com/a/1190000019795998
