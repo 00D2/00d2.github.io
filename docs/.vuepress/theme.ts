@@ -107,12 +107,6 @@ export default hopeTheme({
       //  // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
       //},
   //
-      //mdEnhance: {
-      //  enableAll: true,
-      //  presentation: {
-      //    plugins: ["highlight", "math", "search", "notes", "zoom"],
-      //  },
-      //},
     },
   });
   
