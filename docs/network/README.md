@@ -1,6 +1,8 @@
 ---
 index: false
+icon: network
 author: 小苹果儿
+title: 网络
 date: 2022-05-04
 category:
   - network
@@ -11,7 +13,6 @@ tag:
   - 华为
 ---
 
-# 网络
 
 - [思科](cisco/README.md)
   - Nexus

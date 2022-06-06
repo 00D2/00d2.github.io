@@ -11,28 +11,20 @@ tag:
   - vPC
 ---
 
-## vPC Auto-Recovery特性配置实例
-
-**转载至：  **
-
-【1】 [7ACE](https://www.zhihu.com/people/7ace) 网络大头兵 https://zhuanlan.zhihu.com/p/92280351
-
-【2】 https://www.cisco.com/c/en/us/support/docs/switches/nexus-7000-series-switches/116187-configure-vpc-00.html
 
 
-
-### 简介
+## 简介
 
 本文档描述了如何在Nexus交换机上配置vPC auto-recovery功能。
 
-### 背景
+## 背景
 
 vPC Auto-Recovery，有两个需要应用该功能的主要原因：
 
 - 在数据中心宕机或断电时，由Nexus交换机组成的两个vPC peers都处于关机状态。偶尔的情况下，只能恢复其中一台设备。由于其他的Nexus交换机仍然处于关机状态，因此vPC peer-link和vPC peer-keepalive link同样也处于中断状态 。在这种情况下，已开机的Nexus交换机上vPC也不会开启。所有的vPC配置必须从Nexus交换机的port-channel中移除，才能使port-channel正常工作。当另一台Nexus交换机恢复后，必须再次进行配置更改，恢复所有vPC的配置。
 - 由于某种原因，vPC peer-link中断。由于vPC peer-keepalive仍然正常，vPC备设备会由于双活动检测而关闭其所有vPC成员端口。因此所有的流量都通过vPC主设备。由于某种原因，vPC主设备也关闭，那么此时会造成流量黑洞，因为在vPC主设备关闭之前，vPC备设备就检测到了双活从而关闭了设备上的vPC。
 
-### 配置
+## 配置
 
 SW1配置：
 
@@ -110,7 +102,7 @@ SW2#
 
 ```
 
-### Auto-recovery工作原理
+## Auto-recovery工作原理
 
 本节分别讨论背景部分中提到的两个场景。（假设在两个交换机上都配置了vPC auto-recovery，并相应保存到启动配置中）
 
@@ -130,3 +122,7 @@ SW2#
 **建议在vPC环境中启用auto-recovery**（Nexus系列中根据设备型号不同，该特性默认开启或关闭）
 
 有一种极端场景，vPC auto-recovery功能可能会创建一个双活。例如，如果首先vPC peer-link中断，然后vPC peer-keepalive中断，那么将会形成双活场景。
+
+---
+原文链接：https://zhuanlan.zhihu.com/p/92280351
+参考： https://www.cisco.com/c/en/us/support/docs/switches/nexus-7000-series-switches/116187-configure-vpc-00.html

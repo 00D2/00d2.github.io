@@ -27,6 +27,11 @@ export default navbar([
         icon: "cisco",
         link: "/network/cisco/"
       },
+      {
+        text: "其他",
+        icon: "other",
+        link: "/network/other/"
+      },
     ],  
   },
   { 

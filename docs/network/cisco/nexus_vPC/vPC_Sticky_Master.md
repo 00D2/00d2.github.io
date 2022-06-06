@@ -13,8 +13,6 @@ tag:
   - vPC
 ---
 
-## Cisco Nexus vPC 之 Sticky Master
-
 ** 场景
 
 生产环境里，我们经常把其中的一台Nexus交换机从vPC domain中独立出来，比如升级或灾备演练等情况。但是其中一个细节即Sticky Master的状态很少有人会注意到，因此这可能导致网络中断。

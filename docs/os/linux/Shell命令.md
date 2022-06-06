@@ -11,7 +11,6 @@ tag:
   - linux
   - shell
 ---
-# Linux Shell命令
 
 - echo $PATH  
   显示PATH变量

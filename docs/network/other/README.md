@@ -1,18 +1,16 @@
 ---
 index: false
-icon: cisco
+icon: other
 author: 小苹果儿
-title: 思科
-date: 2022-05-04
+title: 其他网络知识
+date: 2022-06-06
 category:
   - network
   - 网络
 tag:
   - 网络
-  - 思科
 ---
 
 
-- [Nexus vPC](nexus_vPC/README.md)
 
 

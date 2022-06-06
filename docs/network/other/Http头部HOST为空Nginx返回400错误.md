@@ -1,22 +1,25 @@
 ---
 index: 129
 icon: f5
-author: 乐码农
 title: Http头部HOST为空Nginx返回400错误
+author: 乐码农
 date: 2018-08-16
+category:
+  - 网络
+tag:
+  - f5
+  - 健康检查
+  - 404
 ---
 
-## Http头部HOST为空Nginx返回400错误
 
-
-
-### F5健康检查失效
+## F5健康检查失效
 
 现场环境是使用F5做负载均衡，即F5对外提供服务地址和端口，F5负载转发请求到后端业务服务器。环境是客户的测试环境，F5也是客户的。我们向客户提交F5转发策略和F5健康检查策略，等待网络开通。本来以为不用担心这一块问题，但客户的网络部门配置完成后，网络一直不通。由于未接触过F5所以前面不知怎么和客户沟通，后拿到F5账号和密码，登录进去后开始定位问题。
 
 进去F5登录界面后，看到配置的转发策略中，后端服务器健康检查是失效的，即F5认为后端服务器不在线。这是怎么回事？
 
-### F5健康检查规则
+## F5健康检查规则
 
 这里首先弄清F5健康检查规则是怎么回事？
 
@@ -24,13 +27,13 @@ F5健康检查规则是指F5在一定周期内向后端服务器发送请求来�
 
 如下图：
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-a942bc9ee7d0b9a6.PNG?imageMogr2/auto-orient/strip|imageView2/2/w/744/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/13633498-a942bc9ee7d0b9a6.PNG)
 
 
 
 图中 Send String 就是 F5发送的请求字段， Receive String 是F5接收到响应后对比字段，只要响应中有对比字段则认为成功。Receive String为空时，F5接收到响应就认为成功。
 
-### NGINX返回400
+## NGINX返回400
 
 继续排查F5健康检查失效问题。
 
@@ -50,19 +53,19 @@ nc 全名 Netcat (网络刀)，是一个强大的网络工具，可以模拟发�
 
 利用nc 发送http请求后，得到的响应如下：
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-2628c559e387e36f.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/13633498-2628c559e387e36f.jpg)
 
 
 
 把得到的结果复制到一个html文件中，然后打开如下：
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-0fe5f29215373cf8.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![img](https://upload-images.jianshu.io/upload_images/13633498-0fe5f29215373cf8.jpg)
 
 
 
 现在F5健康检查问题找到了：是因为业务服务器返回400错误，但F5匹配200 OK， 没有匹配上造成F5认为服务器有问题。
 
-### HTTP头部HOST不能为空
+## HTTP头部HOST不能为空
 
 继续看问题，nginx为啥会返回错误码400？
 
@@ -93,5 +96,6 @@ F5修改发送规则后，终于网路联通了，如下图：
 
 
 ---
-
-原文链接：https://www.jianshu.com/p/1490406dae21
+:::tip 原文链接 
+https://www.jianshu.com/p/1490406dae21
+:::

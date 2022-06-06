@@ -13,5 +13,4 @@ tag:
 footer: true
 ---
 
-# Linux
 

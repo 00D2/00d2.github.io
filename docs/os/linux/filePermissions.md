@@ -11,4 +11,3 @@ tag:
   - umask
 ---
 
-## Linux文件权限

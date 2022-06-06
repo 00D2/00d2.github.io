@@ -9,7 +9,6 @@ tag:
   - vPC
 ---
 
-# Nexus vPC
 
 - [Auto Recovery](vpcAutoRecoveryConfiguration.md)
 - [Sticky Master](vPC_Sticky_Master.md)

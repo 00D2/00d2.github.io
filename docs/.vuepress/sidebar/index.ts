@@ -5,14 +5,19 @@ import { network } from "./network";
 import { cisco } from "./cisco";
 import { git } from "./git";
 import { ansible } from "./ansible";
+import { about } from "./about";
+import { network_other } from "./network_other";
 
 export const paSidebarConig = sidebar({
+  "": [""],
   "/os/linux/": linux,
   "/os/windows/": windows,
   "/network/": network,
   "/network/cisco/": cisco,
+  "/network/other/": network_other,
   "/tools/Git/": git,
   "/tools/Ansible/": ansible,
+  "/about/": about,
 });
 
 

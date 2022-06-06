@@ -13,19 +13,17 @@ tag:
   - 硬盘
 ---
 
-## Windows 10 本地硬盘变成了可弹出磁盘
 
 
-
-### 问题
+## 问题
 
 装好系统之后，硬盘在右下角显示为可安全删除设备。
 
-### 原因
+## 原因
 
 Standard SATA AHCI controller使用高性能的硬盘模式就会把硬盘看作是一个可热插拔的存储器，所以自然就会显示可弹出。
 
-### 解决方法
+## 解决方法
 
 1. 如果你的BIOS支持关闭HotSwap或者HotPlug，那么直接关闭就可以了。
    或者你直接在BIOS里把磁盘模式改为IDE，不过这样就发挥不好你SSD的高性能了。
@@ -52,8 +50,7 @@ Standard SATA AHCI controller使用高性能的硬盘模式就会把硬盘看作
 [Internal SSD/SATA Drive Shows as a Removable in Windows](http://woshub.com/internal-ssd-sata-drive-shows-removable/)
 
 ---
-
-版权声明：本文为CSDN博主「Regnaiq」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+版权声明：本文为CSDN博主「Regnaiq」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。  
 
 原文链接：https://blog.csdn.net/yq_forever/article/details/106606053
 

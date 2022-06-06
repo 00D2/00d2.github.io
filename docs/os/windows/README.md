@@ -9,8 +9,5 @@ category:
   - Windows
 tag:
   - Windows
-breadcrumb: false
-footer: true
 ---
 
-# Windows
