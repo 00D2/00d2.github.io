@@ -106,6 +106,11 @@ export default navbar([
         link: "https://www.ruanyifeng.com/",
       },
       {
+        text: "Linux命令大全(手册)",
+        icon: "shell",
+        link: "https://www.linuxcool.com/",
+      },
+      {
         text: "Torrk's Blog",
         icon: "hot",
         link: "https://conimi.com/",

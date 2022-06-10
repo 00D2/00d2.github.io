@@ -26,7 +26,7 @@ F5健康检查规则是指F5在一定周期内向后端服务器发送请求来�
 
 如下图：
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-a942bc9ee7d0b9a6.PNG)
+![img](https://img.jinguo.tk/api/image/13633498-a942bc9ee7d0b9a6.PNG)
 
 
 
@@ -52,13 +52,13 @@ nc 全名 Netcat (网络刀)，是一个强大的网络工具，可以模拟发�
 
 利用nc 发送http请求后，得到的响应如下：
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-2628c559e387e36f.jpg)
+![img](https://img.jinguo.tk/api/image/13633498-2628c559e387e36f.jpg)
 
 
 
 把得到的结果复制到一个html文件中，然后打开如下：
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-0fe5f29215373cf8.jpg)
+![img](https://img.jinguo.tk/api/image/13633498-0fe5f29215373cf8.jpg)
 
 
 
@@ -84,17 +84,17 @@ nc 全名 Netcat (网络刀)，是一个强大的网络工具，可以模拟发�
 
 利用nc 命令测试，结果如下：
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-4c3f1fa1d54f5d21.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+![img](https://img.jinguo.tk/api/image/13633498-4c3f1fa1d54f5d21.jpg)
 
-F5修改发送规则后，终于网路联通了，如下图：
+F5修改发送规则后，终于网路联通了.
 
-![img](https://upload-images.jianshu.io/upload_images/13633498-011e7d820ded8b4b.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
+
 
 至此，问题解决。
 
 
 
 ---
-:::tip 原文链接 
+::: info 原文链接 
 https://www.jianshu.com/p/1490406dae21
 :::
