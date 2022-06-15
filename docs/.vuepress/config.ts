@@ -39,9 +39,9 @@ export default defineUserConfig({
     }),
     copyCodePlugin,
     docsearchPlugin({
-      appId: "2ANWAH89K3",
-      apiKey: "c20703bf7d5909a8179e713b0aa81d22",
-      indexName: "website_tk",
+      appId: "AICWAHLPWU",
+      apiKey: "45d5842040f43277ef947f3f940b298b",
+      indexName: "jinguo",
       locales: {
         "/": {
           placeholder: "搜索",

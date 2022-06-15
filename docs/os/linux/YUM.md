@@ -73,3 +73,8 @@ yum-config-manager
 yum-config-manager --add-repo\' '|= url
 ```
 
+
+
+## YUM|DNF|RPM的比较
+
+https://www.redhat.com/sysadmin/how-manage-packages

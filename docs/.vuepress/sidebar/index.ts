@@ -7,6 +7,8 @@ import { git } from "./git";
 import { ansible } from "./ansible";
 import { about } from "./about";
 import { network_other } from "./network_other";
+import { docker } from "./docker";
+
 
 export const paSidebarConig = sidebar({
   "": [""],
@@ -18,6 +20,7 @@ export const paSidebarConig = sidebar({
   "/tools/Git/": git,
   "/tools/Ansible/": ansible,
   "/about/": about,
+  "/tools/docker/": docker,
 });
 
 
