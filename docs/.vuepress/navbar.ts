@@ -16,6 +16,12 @@ export default navbar([
         icon: "windows",
         link: "/os/windows/",
       },
+      { 
+        text: "DNS",
+        icon: "dns",
+        link: "/os/dns/",
+      },
+
     ],
   },
   { 

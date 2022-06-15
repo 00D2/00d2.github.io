@@ -8,6 +8,7 @@ import { ansible } from "./ansible";
 import { about } from "./about";
 import { network_other } from "./network_other";
 import { docker } from "./docker";
+import { dns } from "./dns";
 
 
 export const paSidebarConig = sidebar({
@@ -21,6 +22,7 @@ export const paSidebarConig = sidebar({
   "/tools/Ansible/": ansible,
   "/about/": about,
   "/tools/docker/": docker,
+  "/os/dns/": dns,
 });
 
 
