@@ -3,14 +3,19 @@ icon: git
 title: git的配置文件
 author: RebeccaYan
 date: 2022-05-04
-link: "https://www.jianshu.com/p/1ae2ff6c90de"
+category:
+  - git
+  - github
+tag:
+  - git
+  - github
 ---
 
 
 
 # Git学习之查看config配置
 
-[RebeccaYan](https://www.jianshu.com/u/e529b37dc57d)关注
+关注
 
 git的配置指令是 `git config`。用于配置git的用户，邮箱，域名等信息。详细信息可参考[git-scm.com](https://git-scm.com/)的[git-config](https://git-scm.com/docs/git-config)。
 
@@ -68,3 +73,12 @@ $ git config --global user.email "youremail@email.com"
 ```bash
 $ git config --unset user.name
 ```
+
+---
+
+::: info 版权声明
+
+本文转载于简书博主[RebeccaYan](https://www.jianshu.com/u/e529b37dc57d)的文章。  
+原文链接：[https://www.jianshu.com/p/1ae2ff6c90de](https://www.jianshu.com/p/1ae2ff6c90de)
+
+:::

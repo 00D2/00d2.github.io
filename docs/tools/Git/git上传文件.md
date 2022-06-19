@@ -208,9 +208,11 @@ cd d:text
 ** 注意：git是不能管理空的文件夹的，文件夹里必须有文件才能上传。 **
 
 
-
 ---
 
-原文链接：https://www.jianshu.com/p/c70ca3a02087
+::: info 版权声明
 
-原作者：https://www.jianshu.com/u/cc07c1b21b4b
+本文转载于简书博主[hanyuntao](https://www.jianshu.com/u/cc07c1b21b4b)的文章。  
+原文链接：[https://www.jianshu.com/p/c70ca3a02087](https://www.jianshu.com/p/c70ca3a02087)
+
+:::

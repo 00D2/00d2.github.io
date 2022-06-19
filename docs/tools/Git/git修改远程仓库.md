@@ -4,9 +4,10 @@ author: potao1314
 title: git修改远程仓库地址
 date: 2019-07-18
 category:
-  - Git
+  - git
 tag:
   - git
+  - github
 ---
 
 ### 远程仓库地址
@@ -49,7 +50,11 @@ git remote -v
 ```
 
 
-
 ---
-原文链接： https://segmentfault.com/a/1190000019795998
 
+::: info 版权声明
+
+本文转载于思否博主[potato](https://segmentfault.com/blog/potato_blog)的原创文章，采用《署名-非商业性使用-禁止演绎 4.0 国际》许可协议。  
+原文链接：[https://segmentfault.com/a/1190000019795998](https://segmentfault.com/a/1190000019795998)
+
+:::

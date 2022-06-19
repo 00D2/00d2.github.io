@@ -11,12 +11,12 @@ projects:
   - icon: linux
     name: Linux技巧
     desc: Linux命令、小技巧
-    link: https://jinguo.tk/os/Linux/
+    link: https://jinguo.tk/os/linux/
 
   - icon: github
-    name: Github
-    desc: Github的使用
-    link: https://jinguo.tk/tools/Github
+    name: Git
+    desc: Git的命令、小技巧
+    link: https://jinguo.tk/tools/Git
 
   - icon: markdown
     name: Markdown使用

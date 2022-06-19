@@ -15,11 +15,11 @@ tag:
 
 1. 重启系统
 
-2. 中断启动加载程序计时，移动光标至启动项
+2. 按`e`中断启动加载程序计时，移动光标至启动项
    键入编辑启动项
 
-3. 光标移动至linux行末尾
-   写入rd.break console=tty0,输入ctrl+x启动系统
+3. 光标移动至linux行，`ctrl+e`跳转至末尾
+   写入rd.break console=tty0,输入`ctrl+x`启动系统
 
 4. 重新挂载根文件系统
    mount -o remount,rw /sysroot
@@ -34,6 +34,6 @@ tag:
 
    （如果SELinux是关闭的，就不需要touch）
    touch /.autorelabel
-   sync手动同步（可选）
+   sync手动同步
 
-8. 执行两次exit（ctrl+D,ctrl+D）
+8. 执行两次`ctrl+d`，`ctrl+d`
