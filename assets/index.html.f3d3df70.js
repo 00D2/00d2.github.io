@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6e776c45","path":"/tag/ansible/","title":"ansible \u6807\u7B7E","lang":"zh-CN","frontmatter":{"title":"ansible \u6807\u7B7E","blog":{"type":"category","name":"ansible","key":"tag"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null}');export{e as data};
