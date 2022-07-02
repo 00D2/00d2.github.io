@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";import{o,c,a as e}from"./app.ab4c12f1.js";const _={},s=e("p",null,"gzip",-1),n=e("p",null,"bzip2",-1),r=e("p",null,"xz",-1),a=e("p",null,"time $(tar czvf test.tar.gz /etc/*)",-1),l=[s,n,r,a];function i(p,d){return o(),c("div",null,l)}var m=t(_,[["render",i],["__file","archive.html.vue"]]);export{m as default};
