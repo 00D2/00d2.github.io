@@ -62,7 +62,7 @@ export default navbar([
       {
         text: "Docker",
         icon: "docker",
-        link: "/tools/docker/",
+        link: "/tools/Docker/",
       },
       {
         text: "K8S",

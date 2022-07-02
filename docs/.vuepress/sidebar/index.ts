@@ -21,7 +21,7 @@ export const paSidebarConig = sidebar({
   "/tools/Git/": git,
   "/tools/Ansible/": ansible,
   "/about/": about,
-  "/tools/docker/": docker,
+  "/tools/Docker/": docker,
   "/os/dns/": dns,
 });
 
