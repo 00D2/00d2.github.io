@@ -31,13 +31,17 @@ export default defineUserConfig({
   theme,
 
   plugins: [
-    mdEnhancePlugin({
-      container: true,
-      footnote: true,
-      mark: true,
-      tasklist: true,
-    }),
-    copyCodePlugin,
+//    mdEnhancePlugin({
+//      container: true,
+//      footnote: true,
+//      mark: true,
+//      tasklist: true,
+//      tabs: true,
+//      sub: true,
+//      sup: true,
+//      codetabs: true,
+//    }),
+//    copyCodePlugin,
     docsearchPlugin({
       appId: "AICWAHLPWU",
       apiKey: "45d5842040f43277ef947f3f940b298b",
@@ -87,4 +91,5 @@ export default defineUserConfig({
       },
     }),
   ],
+  
 });

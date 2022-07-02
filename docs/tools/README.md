@@ -1,5 +1,7 @@
 ---
 index: false
+icon: tool
+title: 工具
 author: 小苹果儿
 date: 2022-05-04
 category:
@@ -10,10 +12,9 @@ tag:
   - tool
 ---
 
-# 工具
 
 - [Git](Git/README.md)
 - [Travis CI](Travis“ ”CI/README.md)
-- [Docker](Docker/README.md)
+- [Docker](docker/README.md)
 - [K8S](K8S/README.md)
 - [Vuepress](Vuepress/README.md)

@@ -15,11 +15,10 @@ tag:
 
 1. 重启系统
 
-2. 按`e`中断启动加载程序计时，移动光标至启动项
-   键入编辑启动项
-
+2. 按`e`中断启动加载程序
+   
 3. 光标移动至linux行，`ctrl+e`跳转至末尾
-   写入rd.break console=tty0,输入`ctrl+x`启动系统
+   写入**`rd.break console=tty0`**,输入`ctrl+x`启动系统
 
 4. 重新挂载根文件系统
    mount -o remount,rw /sysroot
@@ -27,8 +26,8 @@ tag:
 5. 切换至系统根文件系统 
    chroot /sysroot
 
-6. 使用passwd设置root账户密码，或修复文件系统问题
-   （建议使用：echo new_password|passwd --stdin root）
+6. 使用passwd设置root账户密码
+   echo new_password|passwd --stdin root
 
 7. 设定SElinux重置标签
 

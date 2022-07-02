@@ -26,5 +26,5 @@ projects:
 
 
 copyright: false
-footer: MIT Licensed | Copyright © 2022-present 小苹果儿
+footer: MIT Licensed | Copyright © 2022-present 小苹果儿 | 使用vuepress-theme-hope主题
 ---

@@ -62,7 +62,7 @@ export default navbar([
       {
         text: "Docker",
         icon: "docker",
-        link: "/tools/Docker/",
+        link: "/tools/docker/",
       },
       {
         text: "K8S",
@@ -92,18 +92,18 @@ export default navbar([
         text: "Mr.Hope",
         icon: "hot",
         children: [
-          { text: "博主主页", link: "https://mrhope.site/" },
-          { text: "vuepress-theme-hope", link: "https://vuepress-theme-hope.github.io/v2/zh/" },
-          { text: "VS Code", link: "https://mrhope.site/software/vscode/" },
-          { text: "Git", link: "https://mrhope.site/software/git/" },
+          { text: "博主主页", icon: "hot", link: "https://mrhope.site/" },
+          { text: "vuepress-theme-hope", icon: "vue", link: "https://vuepress-theme-hope.github.io/v2/zh/" },
+          { text: "VS Code", icon: "vscode", link: "https://mrhope.site/software/vscode/" },
+          { text: "Git", icon: "git", link: "https://mrhope.site/software/git/" },
         ],
       },
       {
         text: "vdoing",
         icon: "hot",
         children: [
-          { text: "博主主页", link: "https://xugaoyi.com/" },
-          { text: "好站收藏", link: "https://xugaoyi.com/pages/beb6c0bd8a66cea6/#%E6%8E%A8%E8%8D%90" },
+          { text: "博主主页", icon: "hot", link: "https://xugaoyi.com/" },
+          { text: "好站收藏", icon: "website", link: "https://xugaoyi.com/pages/beb6c0bd8a66cea6/#%E6%8E%A8%E8%8D%90" },
         ],
       },
       {
@@ -120,6 +120,13 @@ export default navbar([
         text: "Torrk's Blog",
         icon: "hot",
         link: "https://conimi.com/",
+      },
+      {
+        text: "Java程序员进阶之路",
+        children: [
+          { text: "首页", icon: "hot", link: "https://tobebetterjavaer.com" },
+          { text: "Python学习路线", icon: "python", link: "https://tobebetterjavaer.com/xuexiluxian/python.html" },
+        ],
       },
     ],
   },
