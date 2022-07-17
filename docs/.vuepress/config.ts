@@ -1,6 +1,4 @@
 import { defineUserConfig } from "vuepress";
-import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
-import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import theme from "./theme";
 
@@ -31,17 +29,6 @@ export default defineUserConfig({
   theme,
 
   plugins: [
-//    mdEnhancePlugin({
-//      container: true,
-//      footnote: true,
-//      mark: true,
-//      tasklist: true,
-//      tabs: true,
-//      sub: true,
-//      sup: true,
-//      codetabs: true,
-//    }),
-//    copyCodePlugin,
     docsearchPlugin({
       appId: "AICWAHLPWU",
       apiKey: "45d5842040f43277ef947f3f940b298b",

@@ -123,6 +123,10 @@ SW2#
 
 有一种极端场景，vPC auto-recovery功能可能会创建一个双活。例如，如果首先vPC peer-link中断，然后vPC peer-keepalive中断，那么将会形成双活场景。
 
----
-原文链接：https://zhuanlan.zhihu.com/p/92280351
-参考： https://www.cisco.com/c/en/us/support/docs/switches/nexus-7000-series-switches/116187-configure-vpc-00.html
+::: info 原文链接
+https://zhuanlan.zhihu.com/p/92280351
+:::
+
+::: tip 参考
+https://www.cisco.com/c/en/us/support/docs/switches/nexus-7000-series-switches/116187-configure-vpc-00.html
+:::

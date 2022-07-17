@@ -39,34 +39,11 @@ export default hopeTheme({
       intro: "/about/",
       medias: {
         //Baidu: "https://example.com",
-        //Bitbucket: "https://example.com",
-        //Dingding: "https://example.com",
-        //Discord: "https://example.com",
-        //Dribbble: "https://example.com",
-        //Email: "mailto:897219531@qq.com",
-        //Evernote: "https://example.com",
-        //Facebook: "https://example.com",
         //Flipboard: "https://example.com",
         //Gitee: "https://example.com",
         GitHub: "https://www.github.com/00D2",
         //Gitlab: "https://example.com",
-        //Gmail: "https://example.com",
-        //Instagram: "https://example.com",
-        //Lines: "https://example.com",
-        //Linkedin: "https://example.com",
-        //Pinterest: "https://example.com",
-        //Pocket: "https://example.com",
-        //QQ: "https://example.com",
-        //Qzone: "https://example.com",
-        //Reddit: "https://example.com",
-        //Rss: "https://example.com",
-        //Steam: "https://example.com",
-        //Twitter: "https://example.com",
-        //Wechat: "https://example.com",
-        //Weibo: "https://example.com",
-        //Whatsapp: "https://example.com",
-        //Youtube: "https://example.com",
-        //Zhihu: "https://example.com",
+
       },
     },
   
@@ -75,7 +52,15 @@ export default hopeTheme({
     //    "/guide/encrypt.html": ["1234"],
     //  },
     //},
-  
+
+    themeColor: {
+      blue: "#2196f3",
+      red: "#f26d6d",
+      green: "#3eaf7c",
+      orange: "#fb9b5f",
+      turquoise: "#66cccc",
+    },
+
     plugins: {
       blog: {
         autoExcerpt: true,
@@ -91,7 +76,7 @@ export default hopeTheme({
       sup: true,
       codetabs: true,
     }),
-      
+   
       // 如果你不需要评论，可以直接删除 comment 配置，
       // 以下配置仅供体验，如果你需要评论，请自行配置并使用自己的环境，详见文档。
       // 为了避免打扰主题开发者以及消耗他的资源，请不要在你的正式环境中直接使用下列配置!!!!!

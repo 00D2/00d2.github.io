@@ -24,7 +24,16 @@ export const linux = arraySidebar([
     children: [
       "YUM",
       "DNF",
-
   ]},
+  {
+    text: "Ubuntu",
+    icon: "ubuntu",
+    collapsable: true,
+    children: [
+      "",
+      "aptSource",
+      "modifyNetwork",
+    ],
+  }
 
 ]);
