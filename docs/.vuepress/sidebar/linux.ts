@@ -29,6 +29,8 @@ export const linux = arraySidebar([
     text: "Ubuntu",
     icon: "ubuntu",
     collapsable: true,
+    link: "ubuntu/",
+    prefix: "ubuntu/",
     children: [
       "",
       "aptSource",

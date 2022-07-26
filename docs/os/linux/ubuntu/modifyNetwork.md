@@ -14,3 +14,22 @@ footer: true
 ---
 
 https://blog.csdn.net/networken/article/details/99063553
+https://netplan.io/examples
+
+## 配置静态IP示例
+```yaml
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp3s0:
+      addresses:
+        - 10.10.10.2/24
+      nameservers:
+        search: [mydomain, otherdomain]
+        addresses: [10.10.10.1, 1.1.1.1]
+      routes:
+        - to: default
+          via: 10.10.10.1
+ ```       
+
