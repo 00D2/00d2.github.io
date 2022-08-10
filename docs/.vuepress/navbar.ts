@@ -128,6 +128,12 @@ export default navbar([
           { text: "Python学习路线", icon: "python", link: "https://tobebetterjavaer.com/xuexiluxian/python.html" },
         ],
       },
+      {
+        text: "菜鸟教程",
+        children: [
+          { text: "首页", icon: "hot", link: "https://www.runoob.com/" },
+        ],
+      },
     ],
   },
   { text: "关于", icon: "about", link: "/about/" },

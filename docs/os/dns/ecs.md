@@ -7,7 +7,7 @@ date: 2022-07-27
 category:
   - DNS
 tag:
-  - edns0
+  - edns
   - ecs
 ---
 
@@ -17,7 +17,7 @@ ECS功能，可以用于将客户端IP地址传递给所要请求域名的权威
 ### ZDNS配置插入
 
 ### f5 GTM配置读取
-::: tips f5社区
+::: tip f5社区
 转载至：  
 https://community.f5.com/t5/technical-articles/using-client-subnet-in-dns-requests/ta-p/282196
 :::
