@@ -37,5 +37,14 @@ tag:
 
 - [wagoodman/dive](https://github.com/wagoodman/dive)
 
+- [SeaTable](https://hub.docker.com/r/seatable/seatable-developer)
+  
+  > :shamrock:一款在线表格工具，可以私有化部署，用于团队内容共享、协作。官方还提供企业版等服务，详情请查看官方网站。
+  >
+  > 官方网站：[seatable.io](https://seatable.io/)
+  >
+  > 更新日志：[changelog](https://seatable.io/docs/changelog/)
+  >
+  > Github地址：[https://github.com/seatable](https://github.com/seatable)
   
 

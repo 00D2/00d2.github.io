@@ -1,12 +1,10 @@
 import { sidebar } from "vuepress-theme-hope";
 import { linux } from "./linux";
 import { windows } from "./windows";
-import { network } from "./network";
-import { cisco } from "./cisco";
+import { cisco, network_f5, network_other } from "./network";
 import { git } from "./git";
 import { ansible } from "./ansible";
 import { about } from "./about";
-import { network_other } from "./network_other";
 import { docker } from "./docker";
 import { dns } from "./dns";
 
@@ -15,14 +13,14 @@ export const paSidebarConig = sidebar({
   "": [""],
   "/os/linux/": linux,
   "/os/windows/": windows,
-  "/network/": network,
+  "/os/dns/": dns,
   "/network/cisco/": cisco,
   "/network/other/": network_other,
+  "/network/f5/": network_f5,
   "/tools/Git/": git,
   "/tools/Ansible/": ansible,
-  "/about/": about,
   "/tools/Docker/": docker,
-  "/os/dns/": dns,
+  "/about/": about,
 });
 
 

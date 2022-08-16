@@ -34,6 +34,11 @@ export default navbar([
         link: "/network/cisco/"
       },
       {
+        text: "f5",
+        icon: "f5",
+        link: "/network/f5/",
+      },
+      {
         text: "其他",
         icon: "other",
         link: "/network/other/"
@@ -73,6 +78,11 @@ export default navbar([
         text: "Vuepress",
         icon: "vue",
         link: "/tools/Vuepress/",
+      },
+      {
+        text: "好用的工具",
+        icon: "tools",
+        link: "/tools/awesomeTools",
       },
   ]},
   {
