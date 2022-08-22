@@ -30,7 +30,7 @@ export default hopeTheme({
   
     displayFooter: false,
 
-    pageInfo: ["Author", "Date", "Category", "Tag", ],
+    pageInfo: ["Author", "Date", "Category", "Tag", "Word", ],
     lastUpdated: true,
     editLink: false,
   

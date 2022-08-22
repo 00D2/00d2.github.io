@@ -97,54 +97,7 @@ export default navbar([
   {
     text: "强大的博客们",
     icon: "blog",
-    children: [
-      {
-        text: "Mr.Hope",
-        icon: "hot",
-        children: [
-          { text: "博主主页", icon: "hot", link: "https://mrhope.site/" },
-          { text: "vuepress-theme-hope", icon: "vue", link: "https://vuepress-theme-hope.github.io/v2/zh/" },
-          { text: "VS Code", icon: "vscode", link: "https://mrhope.site/software/vscode/" },
-          { text: "Git", icon: "git", link: "https://mrhope.site/software/git/" },
-        ],
-      },
-      {
-        text: "vdoing",
-        icon: "hot",
-        children: [
-          { text: "博主主页", icon: "hot", link: "https://xugaoyi.com/" },
-          { text: "好站收藏", icon: "website", link: "https://xugaoyi.com/pages/beb6c0bd8a66cea6/#%E6%8E%A8%E8%8D%90" },
-        ],
-      },
-      {
-        text: "阮一峰的网络日志",
-        icon: "hot",
-        link: "https://www.ruanyifeng.com/",
-      },
-      {
-        text: "Linux命令大全(手册)",
-        icon: "shell",
-        link: "https://www.linuxcool.com/",
-      },
-      {
-        text: "Torrk's Blog",
-        icon: "hot",
-        link: "https://conimi.com/",
-      },
-      {
-        text: "Java程序员进阶之路",
-        children: [
-          { text: "首页", icon: "hot", link: "https://tobebetterjavaer.com" },
-          { text: "Python学习路线", icon: "python", link: "https://tobebetterjavaer.com/xuexiluxian/python.html" },
-        ],
-      },
-      {
-        text: "菜鸟教程",
-        children: [
-          { text: "首页", icon: "hot", link: "https://www.runoob.com/" },
-        ],
-      },
-    ],
+    link: "/blog",
   },
   { text: "关于", icon: "about", link: "/about/" },
 ]);
