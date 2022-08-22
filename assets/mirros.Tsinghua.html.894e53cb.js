@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as r,c as t,a as s}from"./app.a1ace629.js";const o={},n=s("p",null,"https://mirrors.tuna.tsinghua.edu.cn/help",-1),a=[n];function _(c,i){return r(),t("div",null,a)}var u=e(o,[["render",_],["__file","mirros.Tsinghua.html.vue"]]);export{u as default};
