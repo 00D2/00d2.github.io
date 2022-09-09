@@ -47,4 +47,13 @@ tag:
   >
   > Github地址：[https://github.com/seatable](https://github.com/seatable)
   
+- [flare](https://hub.docker.com/r/soulteary/flare)
+  > Github地址：https://github.com/soulteary/docker-flare
+  
+- [netboxcommunity/netbox](https://hub.docker.com/r/netboxcommunity/netbox)
 
+  > :package: Netbox是由DigitalOcean开源的DCIM系统，可私有化部署，对于小型数据中心内部的机柜、弱电、设备等可以提供易用的管理系统。
+  >
+  > 更新日志：https://github.com/netbox-community/netbox/releases
+  >
+  > Github地址：https://github.com/netbox-community/netbox-docker

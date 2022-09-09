@@ -4,6 +4,7 @@ export const linux = arraySidebar([
   "",
   "Shell命令",
   "重置ROOT密码",
+  "ssh&sftp",
   {
     text: "文件管理",
     icon: "linux",

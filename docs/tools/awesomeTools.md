@@ -1,7 +1,7 @@
 ---
 index: 103
 icon: tools
-title: 好用的工具们
+title: 好用的工具
 author: 小苹果儿
 date: 2022-08-16
 category:
@@ -23,3 +23,7 @@ tag:
   >
   > 服务端更新日志：[changelog](https://manual.seafile.com/changelog/server-changelog/)
 
+- NGINXConfig
+
+  > :ng:  NGINXConfig是由DigitalOcean维护的一款在线生成Nginx配置文件的工具。适用于多种   场景，非常易用强大。
+  > https://www.digitalocean.com/community/tools/nginx
