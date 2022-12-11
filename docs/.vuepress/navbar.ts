@@ -50,6 +50,11 @@ export default navbar([
     icon: "tool",
     children:[
       {
+        text: "Office",
+        icon: "office",
+        link: "/tools/Office/",
+      },
+      {
         text: "Git",
         icon: "git",
         link: "/tools/Git/",

@@ -61,3 +61,7 @@ toc: true
 - [IPv6计算器](https://www.vultr.com/zh/resources/subnet-calculator-ipv6/)
 - [MAC地址转换器](https://www.vultr.com/zh/resources/mac-converter/)
 - [Unix时间计算器](https://www.vultr.com/zh/resources/unix-time-calculator/)
+
+## WebsitePlanet
+
+- [二维码生成](https://www.websiteplanet.com/webtools/free-qr-code-generator/)
