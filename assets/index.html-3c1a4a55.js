@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6eddd59c","path":"/tag/permission/","title":"permission 标签","lang":"zh-CN","frontmatter":{"title":"permission 标签","blog":{"type":"category","name":"permission","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

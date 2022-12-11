@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ef191fb6","path":"/tag/%E5%81%A5%E5%BA%B7%E6%A3%80%E6%9F%A5/","title":"健康检查 标签","lang":"zh-CN","frontmatter":{"title":"健康检查 标签","blog":{"type":"category","name":"健康检查","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

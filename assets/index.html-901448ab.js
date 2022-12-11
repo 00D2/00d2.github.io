@@ -1,0 +1,1 @@
+import{_ as n,W as o,X as s,Y as e,$ as a,a2 as c,D as r,Z as l}from"./framework-f6ff4fa3.js";const _={};function u(i,d){const t=r("RouterLink");return o(),s("div",null,[e("ul",null,[e("li",null,[a(t,{to:"/network/cisco/nexus_vPC/"},{default:c(()=>[l("Nexus vPC")]),_:1})])])])}const f=n(_,[["render",u],["__file","index.html.vue"]]);export{f as default};

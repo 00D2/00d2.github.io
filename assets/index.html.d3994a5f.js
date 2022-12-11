@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-2825ed74","path":"/tag/ahci/","title":"AHCI \u6807\u7B7E","lang":"zh-CN","frontmatter":{"title":"AHCI \u6807\u7B7E","blog":{"type":"category","name":"AHCI","key":"tag"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-42ee380f","path":"/category/ansible/","title":"ansible 分类","lang":"zh-CN","frontmatter":{"title":"ansible 分类","blog":{"type":"category","name":"ansible","key":"category"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

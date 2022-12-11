@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-61be27cc","path":"/tag/ubuntu/","title":"Ubuntu 标签","lang":"zh-CN","frontmatter":{"title":"Ubuntu 标签","blog":{"type":"category","name":"Ubuntu","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{t as data};

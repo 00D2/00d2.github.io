@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-12d2a03d","path":"/tag/%E7%A1%AC%E7%9B%98/","title":"硬盘 标签","lang":"zh-CN","frontmatter":{"title":"硬盘 标签","blog":{"type":"category","name":"硬盘","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{t as data};

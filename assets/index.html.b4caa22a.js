@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-2a589c90","path":"/tag/irule/","title":"irule \u6807\u7B7E","lang":"zh-CN","frontmatter":{"title":"irule \u6807\u7B7E","blog":{"type":"category","name":"irule","key":"tag"},"layout":"Blog"},"excerpt":"","headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null}');export{e as data};

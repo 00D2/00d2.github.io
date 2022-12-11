@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-289a8d9a","path":"/tag/ipv6/","title":"IPv6 标签","lang":"zh-CN","frontmatter":{"title":"IPv6 标签","blog":{"type":"category","name":"IPv6","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{t as data};

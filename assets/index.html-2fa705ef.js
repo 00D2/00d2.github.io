@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-02033188","path":"/tag/umask/","title":"umask 标签","lang":"zh-CN","frontmatter":{"title":"umask 标签","blog":{"type":"category","name":"umask","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{t as data};
