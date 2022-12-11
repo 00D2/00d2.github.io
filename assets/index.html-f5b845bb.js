@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-700e079e","path":"/tag/%E5%87%BD%E6%95%B0/","title":"函数 标签","lang":"zh-CN","frontmatter":{"title":"函数 标签","blog":{"type":"category","name":"函数","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

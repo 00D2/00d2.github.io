@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-fd3344d8","path":"/category/github/","title":"github 分类","lang":"zh-CN","frontmatter":{"title":"github 分类","blog":{"type":"category","name":"github","key":"category"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{t as data};

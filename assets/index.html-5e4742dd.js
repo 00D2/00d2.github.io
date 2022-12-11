@@ -1,1 +1,0 @@
-const r=JSON.parse('{"key":"v-43565a69","path":"/tag/mirrors/","title":"Mirrors 标签","lang":"zh-CN","frontmatter":{"title":"Mirrors 标签","blog":{"type":"category","name":"Mirrors","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{r as data};
