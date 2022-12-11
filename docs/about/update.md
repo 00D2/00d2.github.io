@@ -9,6 +9,10 @@ date: 2022-06-06
 
 ## 2022年
 
+### 2022-12-11
+
+- 增加[Office小技巧](https://jinguo.tk/tools/Office/)
+
 ### 2022-09-09
 
 - 好用的工具中增加NGINXConfig

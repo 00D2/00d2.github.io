@@ -9,8 +9,9 @@ export default hopeTheme({
     url: "https://www.jinguo.tk",
     },
   
-    license: "MIT",
+  //  license: "MIT",
   
+    iconAssets: "iconfont",
     iconPrefix: "iconfont icon-",
   
     logo: "/logo.svg",
@@ -46,12 +47,6 @@ export default hopeTheme({
 
       },
     },
-  
-    //encrypt: {
-    //  config: {
-    //    "/guide/encrypt.html": ["1234"],
-    //  },
-    //},
 
     themeColor: {
       blue: "#2196f3",
@@ -62,9 +57,9 @@ export default hopeTheme({
     },
 
     plugins: {
-      blog: {
-        autoExcerpt: true,
-      },
+      //blog: {
+      //  autoExcerpt: true,
+      //},
 
     mdEnhance: ({
       container: true,

@@ -24,7 +24,8 @@ export default defineUserConfig({
         rel: "stylesheet",
         href: "//at.alicdn.com/t/c/font_3419447_m6sqjivsur.css",
       },
-    ],  ],
+    ],
+  ],
 
   theme,
 
