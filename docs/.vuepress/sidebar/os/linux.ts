@@ -10,7 +10,7 @@ export const linux = arraySidebar([
     icon: "linux",
     //link: "rhel8/",
     //prefix: "rhel8/",
-    collapsable: true,
+    collapsible: true,
     children: [
     "filePermissions",
     "fileTypes",
@@ -21,7 +21,7 @@ export const linux = arraySidebar([
     icon: "software",
     //link: "rhel8/",
     //prefix: "rhel8/",
-    collapsable: true,
+    collapsible: true,
     children: [
       "YUM",
       "DNF",
@@ -29,9 +29,9 @@ export const linux = arraySidebar([
   {
     text: "Ubuntu",
     icon: "ubuntu",
-    collapsable: true,
     link: "ubuntu/",
     prefix: "ubuntu/",
+    collapsible: true,
     children: [
       "",
       "aptSource",

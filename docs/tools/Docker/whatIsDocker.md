@@ -12,9 +12,10 @@ tag:
 ---
 
 ## 什么是容器
+
 轻量的虚拟机。
 
 cgroup：实现资源限制
-namespace：实现隔离 
+namespace：实现隔离
 
 Linux中的namespace:

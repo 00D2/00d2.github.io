@@ -1,6 +1,6 @@
 ---
-index: 128
-icon: office-excel
+index: 158
+icon: office
 title: 通过Excel函数整理IP地址信息
 author: 小苹果儿
 date: 2022-12-09
@@ -9,9 +9,20 @@ category:
 tag:
   - office
   - excel
-  - 函数
 ---
 
 ## 通过函数根据IP地址自动生成网关
 
-## 通过函数根据IP地址自动生成VLAN ID
+```bash
+=LEFT(C12,FIND("X",SUBSTITUTE(C12,".","X",3))-1)&".1"
+```
+
+其中C12代表IP地址所在的单元格。
+
+## 通过函数根据IP地址自动计算VLAN
+
+```bash
+=SUM(1000,SUBSTITUTE(RIGHT(LEFT(C12,FIND("X",SUBSTITUTE(C12,".","X",3))-1),FIND("X",SUBSTITUTE(C12,".","X",1))),".",""))
+```
+
+其中C12代表IP地址所在的单元格。

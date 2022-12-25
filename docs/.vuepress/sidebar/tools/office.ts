@@ -4,11 +4,11 @@ export const office = arraySidebar([
   "",
   {
     text: "Excel",
-    icon: "office-excel",
-    prefix: "Excel/",
-    collapsable: true,
+    //icon: "office-excel",
+    //prefix: "Excel/",
+    collapsible: true,
     children:[
-      //"",
+      "",
       "ip",
     ],
   },

@@ -52,7 +52,7 @@ export default navbar([
       {
         text: "Office",
         icon: "office",
-        link: "/tools/Office/",
+        link: "/tools/Office/"
       },
       {
         text: "Git",

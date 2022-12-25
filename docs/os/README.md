@@ -1,10 +1,9 @@
 ---
 index: false
+icon: os
 author: 小苹果儿
+title: Windows
 date: 2022-05-04
 category:
-  - network
-  - 网络
-tag:
-  - vPC
+  - 操作系统
 ---

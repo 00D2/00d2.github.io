@@ -11,8 +11,3 @@ tag:
   - 网络
   - 思科
 ---
-
-
-- [Nexus vPC](nexus_vPC/README.md)
-
-

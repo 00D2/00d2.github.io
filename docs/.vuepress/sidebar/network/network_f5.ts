@@ -9,8 +9,9 @@ export const network_f5 = arraySidebar([
     text: "irule",
     icon: "f5",
     prefix: "irule/",
-    collapsable: true,
+    collapsible: true,
     children:[
+      "",
       "irule_tuxedo",
     ],
   },
