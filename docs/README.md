@@ -6,15 +6,12 @@ heroImage: /logo.svg
 heroText: 紫苹果乐园
 tagline: 欢迎您的到来。
 
-projects:
-  - icon: linux
-    name: Linux技巧
-    desc: Linux命令、小技巧
+actions:
+  - text: Linux技巧
+    type: primary
     link: https://jinguo.tk/os/linux/
 
-  - icon: github
-    name: Git
-    desc: Git的命令、小技巧
+  - text: Docs
     link: https://jinguo.tk/tools/Git
 
   - icon: markdown

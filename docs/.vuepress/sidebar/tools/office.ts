@@ -4,8 +4,8 @@ export const office = arraySidebar([
   "",
   {
     text: "Excel",
-    //icon: "office-excel",
-    //prefix: "Excel/",
+    icon: "office-excel",
+    prefix: "Excel/",
     collapsible: true,
     children:[
       "",
