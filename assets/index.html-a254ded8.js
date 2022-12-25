@@ -1,0 +1,1 @@
+import{_ as t,W as a,X as s,Y as e,Z as c}from"./framework-673cca3a.js";const n={},r=e("h1",{id:"k8s",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#k8s","aria-hidden":"true"},"#"),c(" K8S")],-1),o=[r];function _(d,i){return a(),s("div",null,o)}const l=t(n,[["render",_],["__file","index.html.vue"]]);export{l as default};
