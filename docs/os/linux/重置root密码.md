@@ -1,6 +1,6 @@
 ---
 index: 21
-icon: password
+icon: linux
 author:
 title: RHEL8重置root密码
 date: 2022-05-14

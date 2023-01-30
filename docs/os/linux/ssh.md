@@ -1,5 +1,5 @@
 ---
-icon: ssh
+icon: linux
 author: 小苹果儿
 title: SSH及SFTP参数及使用
 date: 2022-08-22
@@ -17,7 +17,7 @@ ssh|sftp -o StrictHostKeyChecking=no username@ip
 
 ### SSH不将远程主机公钥保存至本地known_hosts文件
 
-ssh|sftp -o UserKnownHostsFile=no username@ip
+ssh|sftp -o UserKnownHostsFile=/dev/null username@ip
 
 ### 配置使用代理
 

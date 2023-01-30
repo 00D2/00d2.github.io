@@ -1,7 +1,7 @@
 ---
 index: false
-icon: office
-title: Excel小技巧
+icon: office-excel
+title: Excel使用技巧
 author: 小苹果儿
 date: 2022-12-11
 category:

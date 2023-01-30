@@ -6,18 +6,6 @@ heroImage: /logo.svg
 heroText: 紫苹果乐园
 tagline: 欢迎您的到来。
 
-actions:
-  - text: Linux技巧
-    type: primary
-    link: https://jinguo.tk/os/linux/
-
-  - text: Docs
-    link: https://jinguo.tk/tools/Git
-
-  - icon: markdown
-    name: Markdown使用
-    desc: markdown语法
-    link: https://vuepress-theme-hope.github.io/v2/zh/cookbook/markdown/
 
 
 

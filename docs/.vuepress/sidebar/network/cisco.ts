@@ -2,6 +2,7 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const cisco = arraySidebar([
   "",
+  "iOS_Download",
   {
     text: "Nexus vPC",
     icon: "cisco",
