@@ -57,9 +57,7 @@ export default hopeTheme({
     },
 
     plugins: {
-      //blog: {
-      //  autoExcerpt: true,
-      //},
+      blog: true,
 
     mdEnhance: ({
       container: true,

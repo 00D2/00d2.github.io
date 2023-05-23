@@ -15,7 +15,7 @@ tag:
 ## Mr.Hope
 
 - [博主主页](https://mrhope.site/)
-- [vuepress-theme-hope](https://vuepress-theme-hope.github.io/v2/zh/)
+- [vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)
 - [VS Code](https://mrhope.site/software/vscode/)
 - [Git](https://mrhope.site/software/git/)
 
@@ -64,3 +64,7 @@ tag:
 ## WebsitePlanet
 
 - [二维码生成](https://www.websiteplanet.com/webtools/free-qr-code-generator/)
+
+## 【B站】340+位B站优秀UP主名单
+
+-[B站优秀UP主名单](https://shimo.im/sheets/wQTgYdKWdXVrQgkd/MODOC)
