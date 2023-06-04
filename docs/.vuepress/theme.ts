@@ -5,7 +5,7 @@ import { paSidebarConig } from "./sidebar/index";
 export default hopeTheme({
 
   author: {
-    name: "小苹果儿",
+    name: "果果儿",
     url: "https://www.jinguo.tk",
     },
   

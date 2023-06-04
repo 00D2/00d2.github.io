@@ -1,5 +1,5 @@
 ---
-index: 102
+index: true
 icon: dns
 title: 客户端配置单个或多个DNS的行为
 author: 小苹果儿

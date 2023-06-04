@@ -1,5 +1,5 @@
 ---
-index: 501
+index: true
 icon: dns
 title: EDNS Client Subnet
 author: 小苹果儿

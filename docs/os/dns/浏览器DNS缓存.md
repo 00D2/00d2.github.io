@@ -1,5 +1,5 @@
 ---
-index: 101
+index: true
 icon: dns
 title: 浏览器对于DNS的缓存
 author: 小苹果儿
@@ -17,7 +17,7 @@ tag:
 ## 基础测试环境
 
  - 操作系统
-   - Windows 7
+   - Windows 7  
 
  - 抓包工具
    - Wireshark
