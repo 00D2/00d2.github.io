@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-65ee8c3e","path":"/category/dns/","title":"DNS 分类","lang":"zh-CN","frontmatter":{"title":"DNS 分类","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"DNS","key":"category"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

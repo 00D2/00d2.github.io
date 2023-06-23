@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o as n,c as o,a as e}from"./app-b1908c98.js";const c={},s=e("p",null,[e("em",null,[e("strong",null,"永远最爱我的超凡圣")])],-1),_=[s];function l(r,a){return n(),o("div",null,_)}const m=t(c,[["render",l],["__file","index.html.vue"]]);export{m as default};
