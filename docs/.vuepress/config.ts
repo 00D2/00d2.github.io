@@ -5,8 +5,8 @@ import theme from "./theme";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "紫苹果乐园",
-  description: "学习、记录、分享，知识无尽头",
+  title: "爱凡的世界",
+  description: "爱自己的100种方式=爱凡*100",
 
   base: "/",
 
@@ -15,14 +15,7 @@ export default defineUserConfig({
       "link",
       {
         rel: "stylesheet",
-        href: "//at.alicdn.com/t/font_2410206_mfj6e1vbwo.css",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "//at.alicdn.com/t/c/font_3419447_m6sqjivsur.css",
+        href: "//at.alicdn.com/t/c/font_3419447_6azw8iyfguc.css",
       },
     ],
   ],

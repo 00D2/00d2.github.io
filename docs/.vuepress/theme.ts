@@ -27,7 +27,7 @@ export default hopeTheme({
     sidebar: paSidebarConig,
     headerDepth: 2,
 
-    //footer: "MIT Licensed | Copyright © 2022-present 小苹果儿",
+    //footer: "MIT Licensed | Copyright © 2022-present 果果儿",
   
     displayFooter: false,
 
@@ -36,7 +36,7 @@ export default hopeTheme({
     editLink: false,
   
     blog: {
-      description: "一个在学习的小朋友",
+      description: "永远最爱超凡圣",
       intro: "/about/",
       medias: {
         //Baidu: "https://example.com",

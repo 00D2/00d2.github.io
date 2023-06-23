@@ -2,6 +2,22 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
+  {
+    text: "My Love",
+    icon: "love",
+    children:[
+      {
+        text: "我的超凡圣",
+        icon: "love",
+        link: "/love/loveFan/",
+      },
+      {
+        text: "猫咪日记",
+        icon: "cat",
+        link: "/love/loveCat/",
+      },
+    ],
+  },
   { 
     text: "操作系统",
     icon: "OS",

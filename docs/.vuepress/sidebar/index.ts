@@ -3,10 +3,11 @@ import { linux, windows, dns } from "./os";
 import { cisco, network_f5, network_other } from "./network";
 import { ansible, docker, git, office } from "./tools";
 import { about } from "./about";
-
+import { love } from "./love";
 
 export const paSidebarConig = sidebar({
   "": [""],
+  "/love/": love,
   "/os/linux/": linux,
   "/os/windows/": windows,
   "/os/dns/": dns,
