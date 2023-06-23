@@ -12,7 +12,7 @@ heroText: 爱凡的空间
 tagline: 爱自己的100种方式=爱凡*100 
 actions:
   - text: 我的超凡圣
-    link: ./loveFan/
+    link: ./love/loveFan/
     type: primary
 
 highlights:

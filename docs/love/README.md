@@ -10,4 +10,4 @@ tag:
   - Love
 ---
 
-***永远最爱我的超凡圣***
+**<font color=blue>心之所向</font>**
