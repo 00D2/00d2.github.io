@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-d08dfa36","path":"/tag/office/","title":"office 标签","lang":"zh-CN","frontmatter":{"title":"office 标签","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"office","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

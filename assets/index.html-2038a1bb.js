@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-285ca47d","path":"/tag/edns/","title":"标签: edns","lang":"zh-CN","frontmatter":{"title":"标签: edns","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"edns","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};
