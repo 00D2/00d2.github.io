@@ -1,5 +1,4 @@
 ---
-index: 2
 title: DNF软件包管理器
 author: 小苹果儿
 date: 2022-05-14

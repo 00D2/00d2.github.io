@@ -1,5 +1,4 @@
 ---
-index: 10
 icon: disk
 author: Regnaiq
 title: Windows10本地硬盘变成了可弹出磁盘

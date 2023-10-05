@@ -1,5 +1,4 @@
 ---
-index: 121
 icon: shell
 author: 小苹果儿
 title: Linux Shell命令

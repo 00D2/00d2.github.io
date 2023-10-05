@@ -1,5 +1,4 @@
 ---
-index: 21
 icon: linux
 author:
 title: RHEL8重置root密码

@@ -1,5 +1,4 @@
 ---
-index: 201
 icon: ubuntu
 author: 小苹果儿
 title: Ubuntu更改镜像源

@@ -1,5 +1,4 @@
 ---
-index: 1
 title: YUM软件包管理器
 author: 小苹果儿
 date: 2022-06-06

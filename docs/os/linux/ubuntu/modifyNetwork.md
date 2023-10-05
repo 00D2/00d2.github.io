@@ -1,5 +1,4 @@
 ---
-index: 202
 icon: ubuntu
 author: freesharer
 title: Ubuntu修改IP地址
@@ -13,8 +12,7 @@ tag:
 footer: true
 ---
 
-https://blog.csdn.net/networken/article/details/99063553
-https://netplan.io/examples
+
 
 ## 配置静态IP示例
 ```yaml
@@ -31,5 +29,14 @@ network:
       routes:
         - to: default
           via: 10.10.10.1
- ```       
+```
+
+
+
+:::info
+
+https://blog.csdn.net/networken/article/details/99063553
+https://netplan.io/examples
+
+:::
 
