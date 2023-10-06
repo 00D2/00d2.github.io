@@ -1,5 +1,4 @@
 ---
-index: 128
 icon: f5
 title: f5限制部分源IP访问VS业务
 author: 小苹果儿
@@ -10,7 +9,6 @@ tag:
   - f5
   - 源地址限制
 ---
-
 
 
 ## 通过irules实现
@@ -39,8 +37,6 @@ when CLIENT_ACCEPTED {
 
 ### 在VS下调用
 
-
-
 ## 通过packet filters实现
 
 ### 创建rule
@@ -60,4 +56,3 @@ Finished。
 `Network` - `Packet Filters` - `General` - `Packet Filtering` 选择`Enabled`  
 
 并确认`Unhandled Packet Action`是`Accept`。
-

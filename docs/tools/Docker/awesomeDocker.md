@@ -1,5 +1,4 @@
 ---
-index: 128
 icon: docker
 title: 好玩又强大的Docker
 author: 小苹果儿

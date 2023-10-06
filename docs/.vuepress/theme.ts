@@ -11,8 +11,9 @@ export default hopeTheme({
   
   //  license: "MIT",
   
-    iconAssets: "iconfont",
-    iconPrefix: "iconfont icon-",
+  iconAssets: "//at.alicdn.com/t/c/font_3419447_565avriyo14.css",
+  //  iconAssets: "iconfont",
+  //  iconPrefix: "iconfont icon-",
   
     logo: "/logo.svg",
   

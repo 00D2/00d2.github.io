@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: about
 author: 小苹果儿
 title: 关于
 date: 2022-05-15

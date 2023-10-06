@@ -1,5 +1,4 @@
 ---
-index: 1001
 icon: other
 author: 小苹果儿
 title: IPv6 DAD检测

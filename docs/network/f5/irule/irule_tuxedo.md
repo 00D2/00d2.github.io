@@ -1,5 +1,4 @@
 ---
-index: 221
 icon: f5
 title: Tuxedo中间件WSL通过f5 irules进行负载
 author: 小苹果儿

@@ -1,5 +1,4 @@
 ---
-index: 112
 icon: cisco
 author: Cisco
 title: Cisco Nexus vPC 之 Sticky Master

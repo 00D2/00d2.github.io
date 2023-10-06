@@ -10,15 +10,15 @@ export default defineUserConfig({
 
   base: "/",
 
-  head: [
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "//at.alicdn.com/t/c/font_3419447_6azw8iyfguc.css",
-      },
-    ],
-  ],
+  //head: [
+  //  [
+  //    "link",
+  //    {
+  //      rel: "stylesheet",
+  //      href: "//at.alicdn.com/t/c/font_3419447_l430o5k6itd.css",
+  //    },
+  //  ],
+  //],
 
   theme,
 

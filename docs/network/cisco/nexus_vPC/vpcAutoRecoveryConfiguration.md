@@ -1,5 +1,4 @@
 ---
-index: 110
 title: vPC Auto-Recovery特性配置实例
 author: 7ACE
 category:

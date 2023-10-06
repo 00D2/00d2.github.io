@@ -63,7 +63,7 @@ export default navbar([
   },
   { 
     text: "工具",
-    icon: "tool",
+    icon: "tools",
     children:[
       {
         text: "Office",

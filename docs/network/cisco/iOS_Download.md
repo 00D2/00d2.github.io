@@ -1,5 +1,4 @@
 ---
-index: 11114
 icon: cisco
 author: 小苹果儿
 title: Cisco iOS下载网站
