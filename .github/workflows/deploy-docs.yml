@@ -70,4 +70,11 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           branch: gh-pages
           folder: docs/.vuepress/dist
+      - name: 消息推送
+        uses: harryzcy/action-bark@v1
+        with:
+          status: ${{ job.status }}
+          device_key: ${{ secrets.BARK_DEVICE_KEY }}
+          bark_server_url: ${{ secrets.BARK_SERVER_URL }}
+        if: always() # Pick up events even if the job fails or is canceled.     
 

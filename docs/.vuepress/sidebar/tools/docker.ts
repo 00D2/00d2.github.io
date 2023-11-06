@@ -5,4 +5,7 @@ export const docker = arraySidebar([
   "awesomeDocker",
   "Traefik使用教程",
   "dockerImageExportAndImport",
+  "busybox",
+  "go-file",
+  "wireGuard"
 ]);
