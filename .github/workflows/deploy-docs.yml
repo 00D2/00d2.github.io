@@ -71,7 +71,7 @@ jobs:
           branch: gh-pages
           folder: docs/.vuepress/dist
       - name: 消息推送
-        uses: harryzcy/action-bark@v1
+        uses: harryzcy/action-bark@v2
         with:
           status: ${{ job.status }}
           device_key: ${{ secrets.BARK_DEVICE_KEY }}
