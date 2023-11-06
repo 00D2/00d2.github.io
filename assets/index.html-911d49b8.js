@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{r as n,o as r,c as a,a as e,d as c,w as s,b as l}from"./app-305f18dd.js";const _={};function d(f,m){const o=n("font");return r(),a("div",null,[e("p",null,[e("strong",null,[c(o,{color:"blue"},{default:s(()=>[l("心之所向")]),_:1})])])])}const p=t(_,[["render",d],["__file","index.html.vue"]]);export{p as default};
