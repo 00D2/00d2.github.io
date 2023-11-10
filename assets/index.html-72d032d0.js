@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{r as n,o as r,c as a,a as e,d as c,w as s,b as l}from"./app-19cb1c49.js";const _={};function d(f,m){const o=n("font");return r(),a("div",null,[e("p",null,[e("strong",null,[c(o,{color:"red"},{default:s(()=>[l("永远最爱我的超凡圣")]),_:1})])])])}const u=t(_,[["render",d],["__file","index.html.vue"]]);export{u as default};
