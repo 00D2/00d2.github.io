@@ -12,17 +12,17 @@ tag:
 
 
 
-- Seafile
+## Seafile
 
   > :open_file_folder:Seafile 是一款开源的企业云盘，注重可靠性和性能。支持 Windows, Mac, Linux, iOS, Android 平台。支持文件同步或者直接挂载到本地访问。
   >
-  > 与[SeaTable](http://localhost:8080/tools/Docker/awesomeDocker.html)均出自【海文互知】。
+  > 与[SeaTable](https://jinguo.tk/tools/Docker/awesomeDocker.html)均出自【海文互知】。
   >
   > 官方网站：[seafile.com](https://www.seafile.com/)
   >
   > 服务端更新日志：[changelog](https://manual.seafile.com/changelog/server-changelog/)
 
-- NGINXConfig
+## NGINXConfig
 
-  > :ng:  NGINXConfig是由DigitalOcean维护的一款在线生成Nginx配置文件的工具。适用于多种   场景，非常易用强大。
+  > :ng:  NGINXConfig是由DigitalOcean维护的一款在线生成Nginx配置文件的工具。适用于多种场景，非常易用强大。
   > https://www.digitalocean.com/community/tools/nginx

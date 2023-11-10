@@ -17,7 +17,6 @@ tag:
 docker run -it busybox
 ```
 
-
 ## 如何使通过docker-compose部署的busybox一直保持运行状态
 
 通过增加一个不中断运行的command命令，则可以使busybox一直处于运行状态。
@@ -25,7 +24,8 @@ docker run -it busybox
 ```yaml
 version: '3'
 services:
-  my_service:
+  busybox:
+    name: busybox
     image: busybox
     command: tail -f /dev/null
 ```
