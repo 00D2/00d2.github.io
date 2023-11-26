@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c as o,a as e}from"./app-oi_f_tKP.js";const c={},s=e("p",null,[e("em",null,[e("strong",null,"我的小猫咪")])],-1),_=[s];function l(r,a){return n(),o("div",null,_)}const m=t(c,[["render",l],["__file","index.html.vue"]]);export{m as default};

@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as r}from"./app-oi_f_tKP.js";const s={};function t(c,i){return o(),r("div")}const f=e(s,[["render",t],["__file","filePermissions.html.vue"]]);export{f as default};
