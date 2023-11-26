@@ -1,6 +1,6 @@
 ---
 icon: linux
-author:
+author: 小苹果儿
 date: 2022-05-14
 category:
   - Linux
@@ -27,7 +27,7 @@ tag:
    mount -o remount,rw /sysroot
    ```
 
-5. 切换至系统根文件系统 
+5. 切换至系统根文件系统
 
    ```shell
    chroot /sysroot
