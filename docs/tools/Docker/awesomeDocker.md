@@ -41,6 +41,8 @@ tag:
   > :shamrock:一款在线表格工具，可以私有化部署，用于团队内容共享、协作。官方还提供企业版等服务，详情请查看官方网站。
   >
   > 官方网站：[seatable.io](https://seatable.io/)
+  > 
+  > 手册：[手册](https://docs.seatable.cn/published/seatable-manual/upgrade/upgrade_manual-ce.md)
   >
   > 更新日志：[changelog](https://seatable.io/docs/changelog/)
   >
@@ -56,3 +58,7 @@ tag:
   > 更新日志：https://github.com/netbox-community/netbox/releases
   >
   > Github地址：https://github.com/netbox-community/netbox-docker
+
+jellyfin(https://github.com/jellyfin/jellyfin)
+n8n(https://github.com/n8n-io/n8n)
+it-tools(https://github.com/CorentinTh/it-tools)
