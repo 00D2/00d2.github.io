@@ -11,11 +11,11 @@ export default navbar([
         icon: "love",
         link: "/love/loveFan/",
       },
-      //{
-      //  text: "猫咪日记",
-      //  icon: "cat",
-      //  link: "/love/loveCat/",
-      //},
+      {
+        text: "猫咪日记",
+        icon: "cat",
+        link: "/love/loveCat/",
+      },
     ],
   },
   { 
