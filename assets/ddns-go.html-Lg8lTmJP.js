@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as e,c as s,a as t}from"./app-I4QFhQpP.js";const n={},d=t("p",null,"sudo docker run -d --name ddns-go --restart=always -p 9876:9876 -v /opt/ddns-go:/root jeessy/ddn-go -f 3000",-1),r=[d];function c(a,_){return e(),s("div",null,r)}const m=o(n,[["render",c],["__file","ddns-go.html.vue"]]);export{m as default};

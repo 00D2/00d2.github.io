@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-b30332ba","path":"/tag/vim/","title":"标签: vim","lang":"zh-CN","frontmatter":{"title":"标签: vim","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"vim","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

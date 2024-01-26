@@ -1,0 +1,62 @@
+import{_ as s}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c as a,e}from"./app-LWYGXS8F.js";const t={},p=e(`<p>该脚本是用于，将固定文件夹中的配置文件进行解压，解压完成后的txt文件名中如果包含&quot;_&quot;，则进行移动，并通过FTPupload.py脚本备份至远端FTP服务器。</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">UPLOAD_DIR</span><span class="token operator">=</span><span class="token string">&quot;/var/www/html/uploadFile/uploads&quot;</span>
+<span class="token assign-left variable">WORK_DIR</span><span class="token operator">=</span><span class="token string">&quot;/var/www/html/uploadFile/devCfg/peizhi&quot;</span>
+<span class="token assign-left variable">BAK_DIR</span><span class="token operator">=</span><span class="token string">&quot;/var/www/html/uploadFile/devCfg/cfgBak&quot;</span>
+<span class="token assign-left variable">DATE</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token function">date</span> +%Y%m%d<span class="token variable">)</span></span>
+
+<span class="token function">mv</span> <span class="token string">&quot;<span class="token variable">$UPLOAD_DIR</span>&quot;</span>/* <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/
+
+<span class="token function">mkdir</span> <span class="token string">&quot;<span class="token variable">$BAK_DIR</span>&quot;</span>/<span class="token string">&quot;<span class="token variable">$DATE</span>&quot;</span>
+<span class="token function">cp</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/* <span class="token string">&quot;<span class="token variable">$BAK_DIR</span>&quot;</span>/<span class="token string">&quot;<span class="token variable">$DATE</span>&quot;</span>/
+
+<span class="token builtin class-name">shopt</span> <span class="token parameter variable">-s</span> globstar nullglob
+
+<span class="token comment"># 解压后缀为tar.gz的文件</span>
+<span class="token keyword">if</span> <span class="token assign-left variable">comp</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/*.tar.gz<span class="token variable">)</span></span><span class="token punctuation">;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token variable">$comp</span> <span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;存在tar.gz文件，开始解压……&quot;</span>
+    <span class="token keyword">for</span> <span class="token for-or-select variable">gz</span> <span class="token keyword">in</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/*.tar.gz<span class="token punctuation">;</span> <span class="token keyword">do</span>
+        <span class="token function">tar</span> xzvf <span class="token string">&quot;<span class="token variable">$gz</span>&quot;</span> <span class="token parameter variable">-C</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/
+    <span class="token keyword">done</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;tar.gz文件已解压完成。&quot;</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;不存在tar.gz压缩文件，跳过相关解压步骤。&quot;</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 解压后缀为tar的文件</span>
+<span class="token keyword">if</span> <span class="token assign-left variable">comp</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/*.tar<span class="token variable">)</span></span><span class="token punctuation">;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token variable">$comp</span> <span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;存在tar文件，开始解压……&quot;</span>
+    <span class="token keyword">for</span> <span class="token for-or-select variable">tar</span> <span class="token keyword">in</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/*.tar<span class="token punctuation">;</span> <span class="token keyword">do</span>
+        <span class="token function">tar</span> xvf <span class="token string">&quot;<span class="token variable">$tar</span>&quot;</span> <span class="token parameter variable">-C</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/
+    <span class="token keyword">done</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;tar文件已解压完成。&quot;</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;不存在tar压缩文件，跳过相关解压步骤。&quot;</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 解压后缀为zip的文件</span>
+<span class="token keyword">if</span> <span class="token assign-left variable">comp</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">echo</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/*.zip<span class="token variable">)</span></span><span class="token punctuation">;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token variable">$comp</span> <span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;存在zip文件，开始解压……&quot;</span>
+    <span class="token keyword">for</span> <span class="token for-or-select variable">zip</span> <span class="token keyword">in</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/*.zip<span class="token punctuation">;</span> <span class="token keyword">do</span>
+        <span class="token function">unzip</span> <span class="token parameter variable">-n</span> <span class="token string">&quot;<span class="token variable">$zip</span>&quot;</span> <span class="token parameter variable">-d</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/
+    <span class="token keyword">done</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;zip文件已解压完成。&quot;</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">&quot;不存在zip压缩文件，跳过相关解压步骤。&quot;</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># 文件名规范化</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;文件名规范化开始&quot;</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">file</span> <span class="token keyword">in</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/**/*<span class="token punctuation">;</span> <span class="token keyword">do</span>
+    <span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token parameter variable">-f</span> <span class="token string">&quot;<span class="token variable">$file</span>&quot;</span> <span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token variable">$file</span> <span class="token operator">==</span> *_* <span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+        <span class="token function">mv</span> <span class="token string">&quot;<span class="token variable">$file</span>&quot;</span> <span class="token string">&quot;<span class="token variable">\${file<span class="token operator">%</span>_*}</span>&quot;</span>
+    <span class="token keyword">fi</span>
+<span class="token keyword">done</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;文件名规范化完成&quot;</span>
+
+python3 /var/www/html/uploadFile/scripts/FTPupload.py
+
+<span class="token function">rm</span> <span class="token parameter variable">-rf</span> <span class="token string">&quot;<span class="token variable">$WORK_DIR</span>&quot;</span>/*
+<span class="token function">find</span> <span class="token string">&quot;<span class="token variable">$BAK_DIR</span>&quot;</span>/ <span class="token parameter variable">-mtime</span> +31 <span class="token parameter variable">-exec</span> <span class="token function">rm</span> <span class="token parameter variable">-f</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token punctuation">\\</span><span class="token punctuation">;</span>
+<span class="token function">find</span> <span class="token string">&quot;<span class="token variable">$BAK_DIR</span>&quot;</span>/ <span class="token parameter variable">-empty</span> <span class="token parameter variable">-exec</span> <span class="token function">rm</span> <span class="token parameter variable">-rf</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token punctuation">\\</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),l=[p];function o(i,c){return n(),a("div",null,l)}const k=s(t,[["render",o],["__file","fileBak.html.vue"]]);export{k as default};

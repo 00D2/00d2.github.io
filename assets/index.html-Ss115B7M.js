@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-b3030098","path":"/tag/vpc/","title":"标签: vPC","lang":"zh-CN","frontmatter":{"title":"标签: vPC","dir":{"index":false},"feed":false,"sitemap":false,"blog":{"type":"category","name":"vPC","key":"tag"},"layout":"BlogCategory"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};
