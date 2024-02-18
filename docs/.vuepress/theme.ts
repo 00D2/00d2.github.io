@@ -5,8 +5,8 @@ import { paSidebarConig } from "./sidebar/index";
 export default hopeTheme({
 
   author: {
-    name: "小苹果",
-    url: "https://www.jinguo.tk",
+    name: "小苹果儿",
+    url: "https://jinguo.tk",
     },
   
   //  license: "MIT",
@@ -27,12 +27,9 @@ export default hopeTheme({
     // sidebar
     sidebar: paSidebarConig,
     headerDepth: 2,
-
-    //footer: "MIT Licensed | Copyright © 2022-present 果果儿",
   
-    //displayFooter: false,
+    //footer: 'MIT 协议 | Copyright © 2022-present <a href="https://github.com/00D2/00d2.github.io" rel="noopener noreferrer " target="_blank">小苹果儿</a> ',
 
-    footer: 'MIT 协议 | Copyright © 2022-present <a href="https://github.com/00D2/00d2.github.io" rel="noopener noreferrer " target="_blank">小苹果儿</a> ',
     displayFooter: true,
     copyright: false,
 

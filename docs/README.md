@@ -4,7 +4,7 @@ title: 主页
 icon: home
 heroText: 爱凡的世界
 heroImage: /logo.png
-
+copyright: ""
 
 features:
   - title: Love

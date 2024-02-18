@@ -10,7 +10,6 @@ category:
 tag:
   - 操作系统
   - Linux
-footer: true
 ---
 
 
