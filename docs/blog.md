@@ -17,10 +17,10 @@ tag:
 
 ## Mr.Hope
 
-- [博主主页](https://mrhope.site/)
+- [博主主页](https://mister-hope.com/)
 - [vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)
-- [VS Code](https://mrhope.site/software/vscode/)
-- [Git](https://mrhope.site/software/git/)
+- [VS Code](https://mister-hope.com/software/vscode/)
+- [Git](https://mister-hope.com/software/git/)
 
 ## vdoing
 
@@ -48,13 +48,13 @@ tag:
 
 - [首页](https://www.runoob.com/)
 - [菜鸟工具](https://c.runoob.com/)
-- [二维码生成器](https://c.runoob.com/front-end/3454/)
 - [在线进制转换](https://c.runoob.com/front-end/58/)
 - [PDF转图片](https://c.runoob.com/front-end/7271/)
 
 ## 站长之家
 
 - [子网掩码计算器](https://tool.chinaz.com/tools/subnetmask)
+- [简繁体转换](https://tool.chinaz.com/tools/lowercase-uppercase.aspx)
 
 ## Vultr
 

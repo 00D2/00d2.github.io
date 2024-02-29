@@ -3,7 +3,7 @@ import navbar from "./navbar";
 import { paSidebarConig } from "./sidebar/index";
 
 export default hopeTheme({
-
+  
   author: {
     name: "小苹果儿",
     url: "https://jinguo.tk",
@@ -11,7 +11,7 @@ export default hopeTheme({
   
   //  license: "MIT",
   
-  iconAssets: "//at.alicdn.com/t/c/font_3419447_565avriyo14.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3419447_sth20o1io9.css",
   //  iconAssets: "iconfont",
   //  iconPrefix: "iconfont icon-",
   
@@ -26,8 +26,8 @@ export default hopeTheme({
   
     // sidebar
     sidebar: paSidebarConig,
-    headerDepth: 2,
-  
+    headerDepth: 4,
+    
     //footer: 'MIT 协议 | Copyright © 2022-present <a href="https://github.com/00D2/00d2.github.io" rel="noopener noreferrer " target="_blank">小苹果儿</a> ',
 
     displayFooter: true,

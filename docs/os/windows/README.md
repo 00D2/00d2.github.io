@@ -1,5 +1,4 @@
 ---
-index: false
 icon: windows
 author: 小苹果儿
 title: Windows

@@ -37,7 +37,11 @@ export default navbar([
         icon: "dns",
         link: "/os/dns/",
       },
-
+      { 
+        text: "生产力软件",
+        icon: "software",
+        link: "/os/software/",
+      },
     ],
   },
   { 

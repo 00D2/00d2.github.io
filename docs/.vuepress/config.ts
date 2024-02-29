@@ -16,6 +16,13 @@ export default defineUserConfig({
 
   base: "/",
 
+  //markdown: {
+  //  header: {
+  //    // extract levels you need
+  //    levels: [2, 3, 4, 5, 6],
+  //  },
+  //},
+
   //head: [
   //  [
   //    "link",
