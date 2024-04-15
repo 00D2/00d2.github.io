@@ -11,14 +11,15 @@ tag:
 
 说明：之前说了很多使用VPS上传/下载OneDrive文件的教程，查看：Onedrivecmd、OneDrive上传脚本，还有一些就不列举了，有兴趣自己在博客搜索，这里再分享一个适用于Linux的OneDrive客户端，该工具支持同步/上传，并使用Inotify进行实时文件监控，来达到实时同步的效果，可以说就是一个备份工具。支持OneDrive for Business和个人版，给我们备份下数据还是很不错。
 
-使用
-** Github地址：https://github.com/abraunegg/onedrive **
+## 使用
+
+**Github地址：<https://github.com/abraunegg/onedrive>**
 
 要求：作者是建议内存至少为1GB、Swap至少为1GB。不过博主试了下，512M等小点内存的KVM是可以用的，只是需要多给点Swap就行了，不然安装的时候会被杀死进程。
 
 1、安装依赖
 
-```
+```shell
 #Ubuntu和Debian x86_64系统
 apt update
 apt install build-essential 
@@ -80,7 +81,7 @@ source ~/dlang/dmd-2.082.0/activate
 
 3、安装客户端
 
-```
+```shell
 git clone https://github.com/abraunegg/onedrive.git
 cd onedrive
 ./configure
@@ -95,7 +96,7 @@ make install
 
 5、执行同步
 
-#该命令第一次会将OneDrive网盘所有文件/文件夹都下载同步到VPS的/root/OneDrive文件夹。
+该命令第一次会将OneDrive网盘所有文件/文件夹都下载同步到VPS的/root/OneDrive文件夹。
 
 ```shell
 onedrive --synchronize
@@ -107,14 +108,16 @@ onedrive --synchronize
 6、选择性同步
 如果你不想同步整个网盘，而是某个文件夹，比如MOERATS，使用命令：
 
-#使用前提是OneDrive网盘和/root/OneDrive文件夹都有这个文件夹
-```
+使用前提是OneDrive网盘和/root/OneDrive文件夹都有这个文件夹
+
+```shell
 onedrive --synchronize --single-directory MOERATS
 ```
 
 7、单向同步
 在某些情况下(如备份网站数据)，可能只需要上传到OneDrive。这样我们可以使用以下命令：
-```
+
+```shell
 onedrive --synchronize --upload-only
 ```
 
@@ -122,18 +125,21 @@ onedrive --synchronize --upload-only
 
 8、卸载客户端
 
-```
+```shell
 cd /root/onedrive
 make uninstall
 rm -rf ~/.config/onedrive
 ```
 
-同步配置
-提示：如果你要同步多个OneDrive账号，那么需要新建多个配置文件，然后运行多个同步命令即可。
-1、更改VPS同步文件夹
-一般 默认的同步文件夹为/root/OneDrive，其实我们是可以更改的，比如更改到/home/moerats文件夹。
-```
+## 同步配置
 
+提示：如果你要同步多个OneDrive账号，那么需要新建多个配置文件，然后运行多个同步命令即可。
+
+1、更改VPS同步文件夹
+
+一般默认的同步文件夹为/root/OneDrive，其实我们是可以更改的，比如更改到/home/moerats文件夹。
+
+```shell
 #新增并编辑配置文件
 nano /root/.config/onedrive/config
 添加以下代码：
@@ -144,7 +150,8 @@ sync_dir="/home/moerats"
 
 2、更改其它同步设置
 除了步骤1说的sync_dir参数外，我们还可以使用以下配置参数：
-```
+
+```shell
 sync_dir：同步文件的目录
 skip_file：同步期间将跳过与此模式匹配的任何文件或目录
 skip_symlinks：同步期间将跳过符号链接的任何文件或目录
@@ -167,16 +174,15 @@ onedrive --synchronize --verbose --confdir="~/.config/onedrive"
 onedrive --monitor --verbose --confdir="~/.config/onedrive"
 ```
 
-请输入图片描述
-测试没问题了，就使用screen在后台运行，教程参考：使用screen来实现多任务不断线操作命令。
+测试没问题了，就使用screen在后台运行，教程参考：[使用screen来实现多任务不断线操作命令](https://www.moerats.com/archives/142/)。
 
 最后我们就可以实时将VPS文件备份到OneDrive网盘了。
 
-::: info 版权声明
+:::info 版权声明
 
 版权声明：本文为原创文章，版权归 Rat's Blog 所有，转载请注明出处！
 
-本文链接：https://www.moerats.com/archives/740/
+本文链接：<https://www.moerats.com/archives/740/>
 
 如教程需要更新，或者相关链接出现404，可以在文章下面评论留言。
 

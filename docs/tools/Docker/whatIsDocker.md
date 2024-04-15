@@ -1,6 +1,6 @@
 ---
 icon: docker
-title: 什么是Dockers
+title: 什么是容器
 author: 小苹果儿
 date: 2022-07-04
 category:
@@ -10,7 +10,6 @@ tag:
   - 容器
 ---
 
-## 什么是容器
 
 轻量的虚拟机。
 

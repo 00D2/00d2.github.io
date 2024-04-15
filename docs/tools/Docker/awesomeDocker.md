@@ -16,19 +16,19 @@ tag:
 
   > 图片压缩。
   >
-  > Github地址：https://github.com/GoogleChromeLabs/squoosh
+  > Github地址：<https://github.com/GoogleChromeLabs/squoosh>
   >
-  > 网页版：https://squoosh.app/
+  > 网页版：<https://squoosh.app/>
 
 ## [xhofe/alist](https://hub.docker.com/r/xhofe/alist)
 
   > *🗂️一个支持多存储的文件列表程序，使用 Gin 和 React 。*
   >
-  > Github地址：https://github.com/alist-org/alist
+  > Github地址：<https://github.com/alist-org/alist>
 
 ## [portainer/portainer](https://github.com/portainer/portainer)
 
-- https://space.bilibili.com/19956596
+- <https://space.bilibili.com/19956596>
 
 ## Rocket.Chat
 
@@ -49,16 +49,29 @@ tag:
   > Github地址：[https://github.com/seatable](https://github.com/seatable)
   
 ## [flare](https://hub.docker.com/r/soulteary/flare)
-  > Github地址：https://github.com/soulteary/docker-flare
+
+  > Github地址：<https://github.com/soulteary/docker-flare>
   
 ## [netboxcommunity/netbox](https://hub.docker.com/r/netboxcommunity/netbox)
 
   > :package: Netbox是由DigitalOcean开源的DCIM系统，可私有化部署，对于小型数据中心内部的机柜、弱电、设备等可以提供易用的管理系统。
   >
-  > 更新日志：https://github.com/netbox-community/netbox/releases
+  > 更新日志：<https://github.com/netbox-community/netbox/releases>
   >
-  > Github地址：https://github.com/netbox-community/netbox-docker
+  > Github地址：<https://github.com/netbox-community/netbox-docker>
 
-jellyfin(https://github.com/jellyfin/jellyfin)
-n8n(https://github.com/n8n-io/n8n)
-it-tools(https://github.com/CorentinTh/it-tools)
+## [jellyfin](https://github.com/jellyfin/jellyfin)
+
+## [n8n](https://github.com/n8n-io/n8n)
+
+## [it-tools](https://github.com/CorentinTh/it-tools)
+
+  > Docker Hub地址：<https://hub.docker.com/r/corentinth/it-tools>
+  > Github地址：<https://github.com/CorentinTh/it-tools>
+
+## [ddns-go](https://github.com/jeessy2/ddns-go)
+
+  > Docker Hub地址：<https://hub.docker.com/r/jeessy/ddns-go>
+  > Github地址：<https://github.com/jeessy2/ddns-go>
+
+## [openldap](https://hub.docker.com/r/bitnami/openldap)

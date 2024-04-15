@@ -11,7 +11,6 @@ tag:
 ---
 
 
-
 ## Seafile
 
   > :open_file_folder:Seafile 是一款开源的企业云盘，注重可靠性和性能。支持 Windows, Mac, Linux, iOS, Android 平台。支持文件同步或者直接挂载到本地访问。
@@ -25,4 +24,4 @@ tag:
 ## NGINXConfig
 
   > :ng:  NGINXConfig是由DigitalOcean维护的一款在线生成Nginx配置文件的工具。适用于多种场景，非常易用强大。
-  > https://www.digitalocean.com/community/tools/nginx
+  > 使用链接：<https://www.digitalocean.com/community/tools/nginx>

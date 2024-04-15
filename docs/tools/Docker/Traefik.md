@@ -18,20 +18,20 @@ Traefik 是一个优秀的开源边缘路由器，也就是反向代理工具。
 1. 下载镜像
 
    ```shell
-   $ docker pull traefik:v2.6.3
+   docker pull traefik:v2.6.3
    ```
 
 2. 创建traefik目录
 
    ```shell
-   $ mkdir traefik
+   mkdir traefik
    ```
 
 3. 编辑配置文件
 
    ```shell
-   $ cd traefik
-   $ vim traefik.toml
+   cd traefik
+   vim traefik.toml
    ```
 
      *配置文件的内容，在[官网](https://doc.traefik.io/traefik/getting-started/install-traefik/)进行获取。*
@@ -39,8 +39,6 @@ Traefik 是一个优秀的开源边缘路由器，也就是反向代理工具。
 4. 启动窗口
 
    ```shell
-   $ docker run -d -p 8080:8080 -p 80:80 \
+   docker run -d -p 8080:8080 -p 80:80 \
      -v $PWD/traefik.yml:/etc/traefik/traefik.yml traefik:v2.6.3
    ```
-
-   

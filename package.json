@@ -9,11 +9,11 @@
     "docs:dev": "vuepress dev docs"
   },
   "devDependencies": {
-    "@algolia/client-search": "^4.22.1",
-    "@vuepress/bundler-vite": "2.0.0-rc.7",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.14",
-    "vue": "^3.4.19",
-    "vuepress": "2.0.0-rc.7",
-    "vuepress-theme-hope": "2.0.0-rc.24"
+    "@algolia/client-search": "^4.23.3",
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.24",
+    "vue": "^3.4.21",
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-theme-hope": "2.0.0-rc.36"
   }
 }

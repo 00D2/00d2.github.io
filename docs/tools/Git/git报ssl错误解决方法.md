@@ -42,29 +42,31 @@ git config --global https.proxy 127.0.0.1:7890
 ```
 
 如果你之前git中已经设置过上述配置，则使用如下命令取消再进行配置即可：
+
 ```
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
 
 下面是几个常用的git配置查看命令：
-```
+
+```shell
 git config --global http.proxy #查看git的http代理配置
 git config --global https.proxy #查看git的https代理配置
 git config --global -l #查看git的所有配置
 ```
 
 ### 方案三
+
 还有一个情况，是你的VNP代理服务器节点有问题，有时候更换一个结点就好了。当然，也可以使用自己搭建的代理服务器。
 
 博主提示，一定要科学上网，合理上网。
 
 ### 方案四
+
 打开一个新的git bash终端，就没问题了。这个可能是当前git的会话有关。
 
 如果以上所有方案都解决不了报错问题，则需要对症分析，请评论区留言！
-
-
 
 ---
 

@@ -32,6 +32,7 @@ SSH是否走代理依赖于/etc/ssh/ssh_config 配置文件，SSH想使用http�
 :::
 
 > ### 编辑SSH客户端配置文件
+>  
 > ```shell
 > vi /etc/ssh/ssh_config 
 > ```
@@ -60,6 +61,3 @@ SSH是否走代理依赖于/etc/ssh/ssh_config 配置文件，SSH想使用http�
 >Host x.x.x.x
 >    ProxyCommand nc --proxy-type http --proxy x.x.x.x:8081 %h %p
 >```
-
-
-

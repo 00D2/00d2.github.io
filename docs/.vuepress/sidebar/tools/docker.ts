@@ -2,6 +2,7 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const docker = arraySidebar([
   "",
+  "whatIsDocker",
   "awesomeDocker",
   "Traefik",
   "dockerImageExportAndImport",
@@ -9,7 +10,7 @@ export const docker = arraySidebar([
   "go-file",
   "wireGuard",
   "alist",
-  "ddns-go",
   "lychee",
-  "whatIsDocker",
+
+  "viaProxy",
 ]);
