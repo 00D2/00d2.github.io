@@ -11,9 +11,9 @@
   "devDependencies": {
     "@algolia/client-search": "^4.23.3",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.24",
-    "vue": "^3.4.21",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.26",
+    "vue": "^3.4.26",
     "vuepress": "2.0.0-rc.9",
-    "vuepress-theme-hope": "2.0.0-rc.36"
+    "vuepress-theme-hope": "2.0.0-rc.38"
   }
 }
