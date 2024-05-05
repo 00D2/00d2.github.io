@@ -40,7 +40,7 @@ tag:
   
   > :shamrock:一款在线表格工具，可以私有化部署，用于团队内容共享、协作。官方还提供企业版等服务，详情请查看官方网站。
   >
-  > 官方网站：[seatable.io](https://seatable.io/)
+  > 官方网站：[国内版](https://seatable.cn/)、[国际版](https://seatable.io/)
   > 
   > 手册：[手册](https://docs.seatable.cn/published/seatable-manual/upgrade/upgrade_manual-ce.md)
   >
@@ -75,3 +75,8 @@ tag:
   > Github地址：<https://github.com/jeessy2/ddns-go>
 
 ## [openldap](https://hub.docker.com/r/bitnami/openldap)
+
+## [Bitwarden](https://github.com/bitwarden/server)
+
+  > 开源的密码管理工具。
+  > Docker Hub地址：<https://hub.docker.com/r/bitwarden/self-host>

@@ -39,3 +39,8 @@ tag:
 > Mac平台下的鼠标平滑滚动软件。
 >  
 > [官网](https://mos.caldis.me/)
+
+## [思源笔记](https://b3log.org/siyuan/?lang=cn)
+
+  > GitHub地址：<https://github.com/siyuan-note/siyuan>
+  
