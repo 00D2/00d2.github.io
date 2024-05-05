@@ -11,13 +11,4 @@ export const love = arraySidebar([
     children: [
       "",
   ]},  
-  {
-    text: "猫咪日记",
-    icon: "cat",
-    //link: "loveCat/",
-    prefix: "loveCat/",
-    collapsible: true,
-    children: [
-      "",
-  ]},
 ]);

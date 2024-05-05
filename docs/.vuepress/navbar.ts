@@ -11,11 +11,6 @@ export default navbar([
         icon: "love",
         link: "/love/loveFan/",
       },
-      {
-        text: "猫咪日记",
-        icon: "cat",
-        link: "/love/loveCat/",
-      },
     ],
   },
   { 
@@ -114,7 +109,7 @@ export default navbar([
     text: "索引",
     icon: "tree",
     children:[
-      { text: "分类", icon: "categoryselected", link: "/Category" },
+      { text: "分类", icon: "categoryselected", link: "/category" },
       { text: "标签", icon: "tag", link: "/Tag" },
       { text: "时间轴", icon: "time", link: "/Timeline" },
     ],
