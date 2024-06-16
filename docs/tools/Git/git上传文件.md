@@ -65,11 +65,9 @@ tag:
 
 在打开的GIt Bash中输入以下命令（用户和邮箱为你github注册的账号和邮箱）
 
-
-
 ```csharp
-$ git config --global user.name "hanyuntao"
-$ git config --global user.email "hanyuntaocn@163.com"
+git config --global user.name "hanyuntao"
+git config --global user.email "hanyuntaocn@163.com"
 ```
 
 ![img](https://upload-images.jianshu.io/upload_images/3067059-f2c6c88dca3cb4f1.png)
@@ -90,10 +88,8 @@ Paste_Image.png
 
 如果没有密钥，则通过
 
-
-
 ```ruby
-$ ssh-keygen -t rsa -C "hanyuntaocn@163.com"
+ssh-keygen -t rsa -C "hanyuntaocn@163.com"
 ```
 
 生成，生成过程中一路按3次回车键就好了。（默认路径，默认没有密码登录）
@@ -130,8 +126,6 @@ ssh key公钥
 ##### 2.5.2 建立本地仓库
 
 1.首先进入text文件夹
-
-
 
 ```bash
 cd d:text

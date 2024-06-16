@@ -82,3 +82,30 @@ tag:
 
   > 开源的密码管理工具。
   > Docker Hub地址：<https://hub.docker.com/r/bitwarden/self-host>
+
+## [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+
+  > 一个功能强大的、本地部署的、在线访问的PDF工具箱，企业个人皆可用，提供了一系列丰富的PDF操作功能，通过简单的操作，就可以实现PDF合并、分割P、压缩、格式转换等功能。
+  > Github地址：<https://github.com/Stirling-Tools/Stirling-PDF>
+  > Docker Hub地址：<https://hub.docker.com/r/frooodle/s-pdf>
+  > "有趣的开源集市"微信公众号介绍：<https://mp.weixin.qq.com/s/ZhODnceCgFWBfiXm0IHolA>
+
+## [Calibre](https://calibre-ebook.com/)
+
+  > 图书管理系统。
+  > Docker Hub地址：<https://hub.docker.com/r/linuxserver/calibre>
+
+### [talebook](https://hub.docker.com/r/talebook/talebook)
+
+  > 这是一个基于Calibre的简单的图书管理系统，支持在线阅读。主要特点是：
+  > 美观的界面：由于Calibre自带的网页太丑太难用，于是基于Vue，独立编写了新的界面，支持PC访问和手机浏览；
+  > 支持多用户：为了网友们更方便使用，开发了多用户功能，支持豆瓣（已废弃）、QQ、微博、Github等社交网站的登录；
+  > 支持在线阅读：借助Readium.js⁠ 库，支持了网页在线阅读电子书；
+  > 支持邮件推送：可方便推送到Kindle；
+  > 支持OPDS：可使用KyBooks⁠等APP方便地读书；
+  > 支持一键安装，网页版初始化配置，轻松启动网站；
+  > 优化大书库时文件存放路径，可以按字母分类、或者文件名保持中文；
+  > 支持快捷更新书籍信息：支持从百度百科、豆瓣搜索并导入书籍基础信息；
+  > 支持私人模式：需要输入访问码，才能进入网站，便于小圈子分享网站；
+
+## [Draw.io](https://hub.docker.com/r/jgraph/drawio)
