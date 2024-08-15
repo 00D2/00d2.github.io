@@ -109,3 +109,7 @@ tag:
   > 支持私人模式：需要输入访问码，才能进入网站，便于小圈子分享网站；
 
 ## [Draw.io](https://hub.docker.com/r/jgraph/drawio)
+
+## [immich](https://github.com/immich-app/immich)
+ > 高性能的照片和视频自托管解决方案.
+ > 官网<https://immich.app/>
