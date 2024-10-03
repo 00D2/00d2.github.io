@@ -11,7 +11,7 @@ export default hopeTheme({
   
   //  license: "MIT",
   
-  iconAssets: "//at.alicdn.com/t/c/font_3419447_sth20o1io9.css",
+  iconAssets: "//at.alicdn.com/t/c/font_3419447_d2aisik7pt6.css",
   //  iconAssets: "iconfont",
   //  iconPrefix: "iconfont icon-",
   
@@ -62,10 +62,8 @@ export default hopeTheme({
         footnote: true,
         mark: true,
         tasklist: true,
-        tabs: true,
         sub: true,
-        sup: true,
-        codetabs: true,
+        sup: true
       }),
 
       docsearch: {

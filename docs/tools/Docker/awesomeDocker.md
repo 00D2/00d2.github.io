@@ -26,7 +26,7 @@ tag:
   >
   > Github地址：<https://github.com/alist-org/alist>
 
-## [portainer/portainer](https://github.com/portainer/portainer)
+## [portainer/portainer-ce](https://github.com/portainer/portainer-ce)
 
 - <https://space.bilibili.com/19956596>
 
@@ -37,7 +37,7 @@ tag:
 ## [wagoodman/dive](https://github.com/wagoodman/dive)
 
 ## [SeaTable](https://hub.docker.com/r/seatable/seatable-developer)
-  
+
   > :shamrock:一款在线表格工具，可以私有化部署，用于团队内容共享、协作。官方还提供企业版等服务，详情请查看官方网站。
   >
   > 官方网站：[国内版](https://seatable.cn/)、[国际版](https://seatable.io/)
@@ -47,11 +47,11 @@ tag:
   > 更新日志：[changelog](https://seatable.io/docs/changelog/)
   >
   > Github地址：[https://github.com/seatable](https://github.com/seatable)
-  
+
 ## [flare](https://hub.docker.com/r/soulteary/flare)
 
   > Github地址：<https://github.com/soulteary/docker-flare>
-  
+
 ## [netboxcommunity/netbox](https://hub.docker.com/r/netboxcommunity/netbox)
 
   > :package: Netbox是由DigitalOcean开源的DCIM系统，可私有化部署，对于小型数据中心内部的机柜、弱电、设备等可以提供易用的管理系统。
@@ -75,6 +75,19 @@ tag:
   > Docker Hub地址：<https://hub.docker.com/r/jeessy/ddns-go>  
   >
   > Github地址：<https://github.com/jeessy2/ddns-go>
+  >
+  > ```yaml
+  > services:
+  >     ddns-go:
+  >         command: '-f 3000'
+  >         image: jeessy/ddns-go:latest
+  >         volumes:
+  >             - '/opt/apps/ddns-go:/root'
+  >         ports:
+  >             - '9876:9876'
+  >         restart: always
+  >         container_name: ddns-go
+  > ```
 
 ## [openldap](https://hub.docker.com/r/bitnami/openldap)
 
@@ -111,5 +124,60 @@ tag:
 ## [Draw.io](https://hub.docker.com/r/jgraph/drawio)
 
 ## [immich](https://github.com/immich-app/immich)
- > 高性能的照片和视频自托管解决方案.
- > 官网<https://immich.app/>
+
+  > 高性能的照片和视频自托管解决方案.
+  > 官网<https://immich.app/>
+
+## [onedrive](https://github.com/abraunegg/onedrive)
+
+  > 一个Linux上的Microsoft Onedrive客户端工具。
+  >
+  > ```yaml
+  > services:
+  >   onedrive:
+  >       container_name: onedrive
+  >       image: driveone/onedrive:latest
+  >       restart: unless-stopped
+  >       environment:
+  >           - ONEDRIVE_UID=1000
+  >           - ONEDRIVE_GID=1000
+  >           - ONEDRIVE_SINGLE_DIRECTORY="404.UploadV"
+  >           - ONEDRIVE_RESYNC=1
+  >       volumes: 
+  >           - /home/appuser/.config/onedrive:/onedrive/conf
+  >           - /opt/jellyfin/media/:/onedrive/data
+  > ```
+
+## [wireguard]()
+
+> VPN软件
+>
+> ```yaml
+> services:
+>   wireguard:
+>     image: linuxserver/wireguard
+>     container_name: wireguard
+>     cap_add:
+>       - NET_ADMIN
+>       - SYS_MODULE #optional
+>     environment:
+>       - PUID=1000
+>       - PGID=1000
+>       - TZ=Asia/Shanghai
+>       - SERVERURL=my.example.com
+>       - SERVERPORT=51820 #optional
+>       - PEERS=2 #optional
+>       - PEERDNS=8.8.8.8 #optional
+>       - INTERNAL_SUBNET=10.13.13.0 #optional
+>       - ALLOWEDIPS=192.168.68.0/24 #optional
+>       - PERSISTENTKEEPALIVE_PEERS= #optional
+>       - LOG_CONFS=true #optional
+>     volumes:
+>       - /opt/apps/wireguard/appdata/config:/config
+>       - /lib/modules:/lib/modules #optional
+>     ports:
+>       - 51820:51820/udp
+>     sysctls:
+>       - net.ipv4.conf.all.src_valid_mark=1
+>     restart: unless-stopped
+> ```

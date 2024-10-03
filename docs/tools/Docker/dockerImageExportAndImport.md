@@ -26,7 +26,7 @@ docker pull xx
 docker images
 ```
 
-![docker_image](https://img.jinguo.tk/api/image/docker_images.png)
+![docker_image](https://img.jinguo.tk:8443/d/docker_images.png)
 
 ## 将下载好的镜像导出为tar文件
 
@@ -34,6 +34,8 @@ docker images
 
 ```shell
 docker save star7th/showdoc:2.10.4 > showdoc.2.10.4.tar
+或
+docker save -o showdoc.2.10.4.tar star7th/showdoc:2.10.4
 ```
 
 ## 将生成的tar文件copy至目标服务器
@@ -42,9 +44,11 @@ docker save star7th/showdoc:2.10.4 > showdoc.2.10.4.tar
 
 ```shell
 docker load < showdoc.2.10.4.tar
+或
+docker load -i showdoc.2.10.4.tar
 ```
 
-![docker_image_load](https://img.jinguo.tk/api/image/docker_image_load.png)
+![docker_image_load](https://img.jinguo.tk:8443/d/docker_image_load.png)
 
 ## 查看镜像是否加载完成
 
@@ -52,7 +56,9 @@ docker load < showdoc.2.10.4.tar
 docker images
 ```
 
-### 另一种导出导入方式
+### 也可使用image id进行导出
+
+> 此种方式在load后，没有repository和TAG。需要手工打标记。不建议使用。
 
 ```shell
 docker save [IMAGE ID] > showdock.2.10.4.tar 
@@ -62,12 +68,8 @@ docker save [IMAGE ID] > showdock.2.10.4.tar
   docker load < showdoc.2.10.4.tar
   ```
 
-此种方式在load后，没有repository和TAG。需要手工打标记。不建议使用。
-
-可以通过docker tag命令进行打标签
+通过docker tag命令进行打标签
 
 ```shell
 docker tag [IMAGE ID] star7th/showdoc:2.10.4
 ```
-
-## docker export & docker import
