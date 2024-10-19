@@ -14,11 +14,10 @@ tag:
 
 ## [coderlin/image-compress](https://registry.hub.docker.com/r/coderlin/image-compress)
 
-  > 图片压缩。
-  >
-  > Github地址：<https://github.com/GoogleChromeLabs/squoosh>
-  >
-  > 网页版：<https://squoosh.app/>
+> 图片压缩。  
+
+Github地址：<https://github.com/GoogleChromeLabs/squoosh>  
+网页版：<https://squoosh.app/>
 
 ## [xhofe/alist](https://hub.docker.com/r/xhofe/alist)
 
@@ -147,6 +146,10 @@ tag:
   >           - /home/appuser/.config/onedrive:/onedrive/conf
   >           - /opt/jellyfin/media/:/onedrive/data
   > ```
+
+:::tip
+参考链接：<https://www.moerats.com/archives/740/#%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE>
+:::
 
 ## [wireguard]()
 

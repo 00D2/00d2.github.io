@@ -105,15 +105,15 @@ export default navbar([
         link: "/tools/awesomeTools",
       },
   ]},
-  {
-    text: "索引",
-    icon: "tree",
-    children:[
-      { text: "分类", icon: "categoryselected", link: "/category" },
-      { text: "标签", icon: "tag", link: "/Tag" },
-      { text: "时间轴", icon: "time", link: "/Timeline" },
-    ],
-  },
+  //{
+  //  text: "索引",
+  //  icon: "tree",
+  //  children:[
+  //    { text: "分类", icon: "categoryselected", link: "/category" },
+  //    { text: "标签", icon: "tag", link: "/Tag" },
+  //    { text: "时间轴", icon: "time", link: "/Timeline" },
+  //  ],
+  //},
   {
     text: "强大的博客们",
     icon: "blog",
