@@ -21,7 +21,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 9
           run_install: true
 
       - name: Setup Node.js
@@ -71,12 +71,13 @@ jobs:
           branch: gh-pages
           folder: docs/.vuepress/dist
       - name: 部署结果推送至bark
-        uses: harryzcy/action-bark@v2.0.2
+        uses: harryzcy/action-bark@v2.2.0
         with:
           status: ${{ job.status }}
           title: Github Action部署
           #body: 
           device_key: ${{ secrets.BARK_DEVICE_KEY }}
           bark_server_url: ${{ secrets.BARK_SERVER_URL }}
+          group: github
         if: always() # Pick up events even if the job fails or is canceled.     
 
