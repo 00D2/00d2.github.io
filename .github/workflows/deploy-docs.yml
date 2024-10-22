@@ -71,7 +71,7 @@ jobs:
           branch: gh-pages
           folder: docs/.vuepress/dist
       - name: 部署结果推送至bark
-        uses: harryzcy/action-bark@v2.2.0
+        uses: harryzcy/action-bark@v2.0.2
         with:
           status: ${{ job.status }}
           title: Github Action部署
