@@ -16,9 +16,15 @@ tag:
 
 在一台可以联网并执行docker pull的设备上，将所需的镜像下载至本地。
 
+> xx为所需要拉取的镜像名称，如mariadb，busybox等。  
+>
+> v1.0代表所要拉取的版本号，如mariadb的10.11.5等。不填写版本号，则默认为latest。
+
 ```shell
-docker pull xx
+docker pull xx:v1.0
 ```
+
+![image-20241102222824983](https://img.jinguo.link/d/image-20241102222824983.png)
 
 ## 查看下载好的镜像
 
@@ -26,7 +32,7 @@ docker pull xx
 docker images
 ```
 
-![docker_image](https://img.jinguo.tk:8443/d/docker_images.png)
+![image-20241102223731772](https://img.jinguo.link/d/image-20241102223731772.png)
 
 ## 将下载好的镜像导出为tar文件
 
@@ -38,6 +44,8 @@ docker save star7th/showdoc:2.10.4 > showdoc.2.10.4.tar
 docker save -o showdoc.2.10.4.tar star7th/showdoc:2.10.4
 ```
 
+![image-20241102224138303](https://img.jinguo.link/d/image-20241102224138303.png)
+
 ## 将生成的tar文件copy至目标服务器
 
 ## 在目标服务器对镜像进行加载
@@ -47,8 +55,6 @@ docker load < showdoc.2.10.4.tar
 或
 docker load -i showdoc.2.10.4.tar
 ```
-
-![docker_image_load](https://img.jinguo.tk:8443/d/docker_image_load.png)
 
 ## 查看镜像是否加载完成
 

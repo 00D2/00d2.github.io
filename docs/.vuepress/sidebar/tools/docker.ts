@@ -7,10 +7,8 @@ export const docker = arraySidebar([
   "Traefik",
   "dockerImageExportAndImport",
   "busybox",
-  "go-file",
   "wireGuard",
   "alist",
-  "lychee",
   "viaProxy",
   "acme.sh",
 ]);
