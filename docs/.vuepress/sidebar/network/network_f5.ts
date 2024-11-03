@@ -13,6 +13,8 @@ export const network_f5 = arraySidebar([
     children:[
       "",
       "irule_tuxedo",
+      "irule_jsessionid",
+      "irule_xff",
     ],
   },
 ]);

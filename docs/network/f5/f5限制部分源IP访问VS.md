@@ -11,7 +11,7 @@ tag:
 ---
 
 
-## 通过irules实现
+## 方式一：通过irules实现
 
 ### 创建data group
 
@@ -37,7 +37,7 @@ when CLIENT_ACCEPTED {
 
 ### 在VS下调用
 
-## 通过packet filters实现
+## 方式二：通过packet filters实现
 
 ### 创建rule
 
@@ -50,6 +50,8 @@ when CLIENT_ACCEPTED {
 >Destination Hosts and Networks : `Restrict to any in list` - 添加相应的VS地址  
 >Destination Port : `Restrict to any in list` - 添加相应的VS端口  
 Finished。
+
+![image-20241103133327741](https://img.jinguo.link/d/image-20241103133327741.png)
 
 ### 启用Packet Filters
 

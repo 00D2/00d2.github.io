@@ -10,20 +10,18 @@ tag:
   - 容器
 ---
 
-
-
-## [coderlin/image-compress](https://registry.hub.docker.com/r/coderlin/image-compress)
+## [coderlin/image-compress](https://github.com/GoogleChromeLabs/squoosh)
 
 > 图片压缩。  
 
-Github地址：<https://github.com/GoogleChromeLabs/squoosh>  
+DockerHub地址：<https://registry.hub.docker.com/r/coderlin/image-compress>  
 网页版：<https://squoosh.app/>
 
-## [xhofe/alist](https://hub.docker.com/r/xhofe/alist)
+## [xhofe/alist](https://github.com/alist-org/alist)
 
   > *🗂️一个支持多存储的文件列表程序，使用 Gin 和 React 。*
   >
-  > Github地址：<https://github.com/alist-org/alist>
+  > DockerHub地址：<https://hub.docker.com/r/xhofe/alist>
 
 ## [portainer/portainer-ce](https://github.com/portainer/portainer-ce)
 
@@ -134,24 +132,24 @@ Github地址：<https://github.com/GoogleChromeLabs/squoosh>
   > ```yaml
   > services:
   >   onedrive:
-  >       container_name: onedrive
-  >       image: driveone/onedrive:latest
-  >       restart: unless-stopped
-  >       environment:
-  >           - ONEDRIVE_UID=1000
-  >           - ONEDRIVE_GID=1000
-  >           - ONEDRIVE_SINGLE_DIRECTORY="404.UploadV"
-  >           - ONEDRIVE_RESYNC=1
-  >       volumes: 
-  >           - /home/appuser/.config/onedrive:/onedrive/conf
-  >           - /opt/jellyfin/media/:/onedrive/data
+  >     container_name: onedrive
+  >     image: driveone/onedrive:latest
+  >     restart: unless-stopped
+  >     environment:
+  >       - ONEDRIVE_UID=1000
+  >       - ONEDRIVE_GID=1000
+  >       - ONEDRIVE_SINGLE_DIRECTORY="404.UploadV"
+  >       - ONEDRIVE_RESYNC=1
+  >     volumes: 
+  >       - /home/appuser/.config/onedrive:/onedrive/conf
+  >       - /opt/jellyfin/media/:/onedrive/data
   > ```
 
 :::tip
 参考链接：<https://www.moerats.com/archives/740/#%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE>
 :::
 
-## [wireguard]()
+## [wireguard](https://www.wireguard.com/)
 
 > VPN软件
 >
@@ -167,12 +165,12 @@ Github地址：<https://github.com/GoogleChromeLabs/squoosh>
 >       - PUID=1000
 >       - PGID=1000
 >       - TZ=Asia/Shanghai
->       - SERVERURL=my.example.com
+>       - SERVERURL=my.example.com #个人域名
 >       - SERVERPORT=51820 #optional
->       - PEERS=2 #optional
+>       - PEERS=2 #optional #等于1则为客户端模式。
 >       - PEERDNS=8.8.8.8 #optional
 >       - INTERNAL_SUBNET=10.13.13.0 #optional
->       - ALLOWEDIPS=192.168.68.0/24 #optional
+>       - ALLOWEDIPS=192.168.68.0/24 #optional #内部网段
 >       - PERSISTENTKEEPALIVE_PEERS= #optional
 >       - LOG_CONFS=true #optional
 >     volumes:
