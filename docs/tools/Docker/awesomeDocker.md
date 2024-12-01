@@ -128,22 +128,52 @@ DockerHub地址：<https://registry.hub.docker.com/r/coderlin/image-compress>
 ## [onedrive](https://github.com/abraunegg/onedrive)
 
   > 一个Linux上的Microsoft Onedrive客户端工具。
-  >
-  > ```yaml
-  > services:
-  >   onedrive:
-  >     container_name: onedrive
-  >     image: driveone/onedrive:latest
-  >     restart: unless-stopped
-  >     environment:
-  >       - ONEDRIVE_UID=1000
-  >       - ONEDRIVE_GID=1000
-  >       - ONEDRIVE_SINGLE_DIRECTORY="404.UploadV"
-  >       - ONEDRIVE_RESYNC=1
-  >     volumes: 
-  >       - /home/appuser/.config/onedrive:/onedrive/conf
-  >       - /opt/jellyfin/media/:/onedrive/data
-  > ```
+
+### 编写docker-compose.yaml文件
+
+> 文件参考如下。
+>
+> ONEDRIVE_SINGLE_DIRECTORY：表示只同步一个文件夹
+
+```yaml
+services:
+  onedrive:
+    container_name: onedrive
+    image: driveone/onedrive:latest
+    restart: unless-stopped
+    environment:
+      - ONEDRIVE_UID=1000
+      - ONEDRIVE_GID=1000
+      - ONEDRIVE_SINGLE_DIRECTORY="404.UploadV"
+      - ONEDRIVE_RESYNC=1
+    volumes: 
+      - /home/appuser/.config/onedrive:/onedrive/conf
+      - /opt/vd/:/onedrive/data
+```
+
+### 启动onedrive
+
+```bash
+docker compose up -d
+docker exec onedrive onedrive --verbose       #查看onedrive状态
+```
+
+![image-20241113150524495](https://img.jinguo.link/d/image-20241113150524495.png)
+
+### 登录onedrive
+
+> 输入命令后，将系统给出的URL复制到电脑的浏览器中，并使用对应的office账号进行登录。
+>
+> 登录完成，浏览器会显示空白内容。此时将浏览器地址栏中的URL复制回docker的交互界面，等待出现认证成功的提示即可。
+
+```bash
+docker exec -it onedrive onedrive onedrive    #进行登录
+```
+
+![image-20241113150704103](https://img.jinguo.link/d/image-20241113150704103.png)
+
+**注意：onedrive容器重启后，也需要重新登录。可通过`docker exec onedrive onedrive --verbose`进行查看确认。**
+
 
 :::tip
 参考链接：<https://www.moerats.com/archives/740/#%E5%90%8C%E6%AD%A5%E9%85%8D%E7%BD%AE>

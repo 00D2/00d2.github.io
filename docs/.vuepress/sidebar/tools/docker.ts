@@ -11,4 +11,5 @@ export const docker = arraySidebar([
   "alist",
   "viaProxy",
   "acme.sh",
+  "dockerRegistryCache",
 ]);
