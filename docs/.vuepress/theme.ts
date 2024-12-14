@@ -57,24 +57,6 @@ export default hopeTheme({
     plugins: {
       blog: true,
 
-      //* Shiki 代码高亮
-      //* @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
-      //*/
-     shiki: {
-          // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-       langs: ['shell', 'bash', 'md', 'tcl', 'yaml', 'json'],
-      //   languages: ['shell', 'bash', 'typescript', 'javascript'],
-     },
-
-      mdEnhance: ({
-        //container: true,
-        footnote: true,
-        mark: true,
-        tasklist: true,
-        sub: true,
-        sup: true
-      }),
-
       docsearch: {
         appId: "AICWAHLPWU",
         apiKey: "45d5842040f43277ef947f3f940b298b",
