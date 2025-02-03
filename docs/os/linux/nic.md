@@ -30,11 +30,11 @@ ip -s link show eth0
 
 - 查看系统网络链接
 
-	```bash
-	nmcli connection show
-	```
+```bash
+nmcli connection show
+```
 
-	![image-20220606140633070](https://img.jinguo.tk/api/image/image-20220606140633070.png)  
+![image-20220606140633070](https://img.jinguo.tk/api/image/image-20220606140633070.png)  
 
 
 - 查看系统活动的网络链接
@@ -78,19 +78,4 @@ nmcli connection add con-name eth0-1 type ethernet ifname eth0 ipv4.method manua
   nmcli connection down eth0-1 && nmcli connection up eth0-1
   ```
 
-  
-
 ## nmtui
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -9,12 +9,6 @@ export default hopeTheme({
     url: "https://jinguo.tk",
     },
   
-  //  license: "MIT",
-  
-  iconAssets: "//at.alicdn.com/t/c/font_3419447_d2aisik7pt6.css",
-  //  iconAssets: "iconfont",
-  //  iconPrefix: "iconfont icon-",
-  
     logo: "/logo.svg",
   
     repo: "https://www.github.com/00D2/00d2.github.io",
@@ -56,6 +50,11 @@ export default hopeTheme({
 
     plugins: {
       blog: true,
+
+      icon: {
+        assets: "//at.alicdn.com/t/c/font_3419447_d2aisik7pt6.css",
+        prefix: "iconfont icon-",
+      },
 
       docsearch: {
         appId: "AICWAHLPWU",

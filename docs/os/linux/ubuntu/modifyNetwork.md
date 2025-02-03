@@ -15,6 +15,7 @@ footer: true
 
 
 ## 配置静态IP示例
+
 ```yaml
 network:
   version: 2
@@ -31,12 +32,9 @@ network:
           via: 10.10.10.1
 ```
 
+:::info 参考链接
 
-
-:::info
-
-https://blog.csdn.net/networken/article/details/99063553
-https://netplan.io/examples
+<https://blog.csdn.net/networken/article/details/99063553>  
+<https://netplan.io/examples>
 
 :::
-
