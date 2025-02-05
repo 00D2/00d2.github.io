@@ -37,6 +37,16 @@ export const linux = arraySidebar([
       "aptSource",
       "modifyNetwork",
     ],
+  },
+  {
+    text: "Debian",
+    icon: "debian",
+    link: "debian/",
+    prefix: "debian/",
+    collapsible: true,
+    children: [
+      "",
+      "apt_viaProxy",
+    ],
   }
-
 ]);
