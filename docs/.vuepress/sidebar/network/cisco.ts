@@ -12,6 +12,7 @@ export const cisco = arraySidebar([
       //"",
       "vPC_Sticky_Master",
       "vpcAutoRecoveryConfiguration",
+      "dhcpServerUnableAssignIP",
     ],
   },
 ]);

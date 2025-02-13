@@ -6,7 +6,7 @@ export default hopeTheme({
   
   author: {
     name: "小苹果儿",
-    url: "https://jinguo.tk",
+    url: "https://blog.jinguo.link",
     },
   
     logo: "/logo.svg",
@@ -32,7 +32,7 @@ export default hopeTheme({
     editLink: false,
   
     blog: {
-      description: "永远最爱超凡圣",
+      description: "爱与自由",
       intro: "/about/",
       medias: {
         GitHub: "https://www.github.com/00D2",
