@@ -2,17 +2,6 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  {
-    text: "My Love",
-    icon: "love",
-    children:[
-      {
-        text: "我的超凡圣",
-        icon: "love",
-        link: "/love/loveFan/",
-      },
-    ],
-  },
   { 
     text: "操作系统",
     icon: "OS",

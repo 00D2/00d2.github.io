@@ -27,7 +27,7 @@ cisco#show ip dhcp pool
 
 出现了以下结果
 
-![alt text](https://img.jinguo.link/d/image.png)
+![IP池结果](https://img.jinguo.link/d/20250214095308284.png)
 
 Leased + Excluded = Total 已经254了啊，果然是IP池没有可分配IP的问题。但是怎么解决呢。先问了一下驻场大佬，IP池不够，没有可用IP分配了，要不要扩容IP池。然后大佬说，当初考虑好的了，IP不可能不够用的。我又把这个图发给大佬，大佬说你看Leased addresses才169，还多着呢，然后就不回复我了。好吧，我又去请教学校的网络中心的老师，老师说，很明显IP池不够啦，扩容吧
 

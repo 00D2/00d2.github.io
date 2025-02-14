@@ -2,15 +2,11 @@
 home: true
 title: 主页
 icon: home
-heroText: 爱凡的世界
+heroText: 向往自由
 heroImage: /logo.png
 copyright: ""
 
 features:
-  - title: Love
-    icon: love
-    details: 最爱的人
-    link: /love/
 
   - title: 操作系统
     icon: OS
