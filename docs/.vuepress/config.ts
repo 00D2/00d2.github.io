@@ -6,8 +6,8 @@ import { shikiPlugin } from '@vuepress/plugin-shiki';
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "爱凡的世界",
-  description: "爱自己的100种方式=爱凡*100",
+  title: "向往自由",
+  description: "自由和生活到底是什么关系",
   
   bundler: viteBundler({
     viteOptions: {},
