@@ -5,7 +5,7 @@ import { paSidebarConig } from "./sidebar/index";
 export default hopeTheme({
   
   author: {
-    name: "白色犄角",
+    name: "犄角套袜子",
     url: "https://blog.jinguo.link",
     },
   
@@ -22,7 +22,7 @@ export default hopeTheme({
     sidebar: paSidebarConig,
     headerDepth: 4,
     
-    //footer: 'MIT 协议 | Copyright © 2022-present <a href="https://github.com/00D2/00d2.github.io" rel="noopener noreferrer " target="_blank">白色犄角</a> ',
+    //footer: 'MIT 协议 | Copyright © 2022-present <a href="https://github.com/00D2/00d2.github.io" rel="noopener noreferrer " target="_blank">犄角套袜子</a> ',
 
     displayFooter: true,
     copyright: false,
