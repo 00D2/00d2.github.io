@@ -9,7 +9,7 @@ tag:
   - office
 ---
 
-说明：之前说了很多使用VPS上传/下载OneDrive文件的教程，查看：Onedrivecmd、OneDrive上传脚本，还有一些就不列举了，有兴趣自己在博客搜索，这里再分享一个适用于Linux的OneDrive客户端，该工具支持同步/上传，并使用Inotify进行实时文件监控，来达到实时同步的效果，可以说就是一个备份工具。支持OneDrive for Business和个人版，给我们备份下数据还是很不错。
+>说明：之前说了很多使用VPS上传/下载OneDrive文件的教程，查看：Onedrivecmd、OneDrive上传脚本，还有一些就不列举了，有兴趣自己在博客搜索，这里再分享一个适用于Linux的OneDrive客户端，该工具支持同步/上传，并使用Inotify进行实时文件监控，来达到实时同步的效果，可以说就是一个备份工具。支持OneDrive for Business和个人版，给我们备份下数据还是很不错。
 
 ## 使用
 

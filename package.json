@@ -11,11 +11,11 @@
   "devDependencies": {
     "@algolia/client-search": "^4.24.0",
     "@vuepress/bundler-vite": "2.0.0-rc.20",
-    "@vuepress/plugin-docsearch": "2.0.0-rc.86",
-    "sass-embedded": "^1.86.0",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.91",
+    "sass-embedded": "^1.86.3",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.20",
-    "vuepress-theme-hope": "2.0.0-rc.75"
+    "vuepress-theme-hope": "2.0.0-rc.78"
   },
   "packageManager": "pnpm@9.12.0+sha512.4abf725084d7bcbafbd728bfc7bee61f2f791f977fd87542b3579dcb23504d170d46337945e4c66485cd12d588a0c0e570ed9c477e7ccdd8507cf05f3f92eaca"
 }
