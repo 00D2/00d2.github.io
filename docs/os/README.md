@@ -7,3 +7,8 @@ date: 2022-05-04
 category:
   - 操作系统
 ---
+
+- [Linux](linux/README.md)
+- [Windows](windows/README.md)
+- [dns](dns/README.md)
+- [software](software/README.md)

@@ -16,7 +16,7 @@ tag:
 
 1、 修改命令
 
-```dsconfig
+```bash
 git remote set-url origin [url]
 ```
 
@@ -32,7 +32,7 @@ git remote add origin [url]
 修改后如果git pull会提示fatal: refusing to merge unrelated histories这个问题:
 解决方法:
 
-```crmsh
+```bash
 git pull origin master --allow-unrelated-histories
 ```
 

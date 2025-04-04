@@ -21,7 +21,7 @@ tag:
 
 登陆核心层交换机，查看这个教室的vlan情况
 
-```cli
+```
 cisco#show ip dhcp pool
 ```
 
@@ -33,7 +33,7 @@ Leased + Excluded = Total 已经254了啊，果然是IP池没有可分配IP的�
 
 后面找了一下资料，扩容的话，要重新分配IP和更改掩码，而且要修改防火墙的配置，略为麻烦。当时的情况不允许我扩容IP地址池，只能放弃这个方案了。我又重新看了一下输出的结果，发现这个vlan的Excluded addresses明显比其他几个vlan的Excluded addresses多，我又去看了一遍配置文档
 
-```cli
+```
 cisco#show running-config
 ```
 
@@ -55,7 +55,7 @@ Excluded-address 是251-254，也才4个，和上面的Excluded-addresses 的85�
 
 也就是说，我那85个IP是因为冲突导致没办法分配下去。恍然大悟，然后执行
 
-```cli
+```
 cisco#show ip dhcp conflict
 ```
 
@@ -65,13 +65,13 @@ cisco#show ip dhcp conflict
 
 执行清理排除地址命令
 
-```cli
+```
 cisco#clear ip dhcp conflict *
 ```
 
 然后再执行
 
-```cli
+```
 cisco#show ip dhcp pool
 ```
 
