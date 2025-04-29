@@ -6,8 +6,8 @@ import { shikiPlugin } from '@vuepress/plugin-shiki';
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "向往自由",
-  description: "自由和生活到底是什么关系",
+  title: "一只小青蛙",
+  description: "",
   
   bundler: viteBundler({
     viteOptions: {},
