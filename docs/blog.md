@@ -1,5 +1,5 @@
 ---
-icon: blog
+icon: fa6-solid:blog
 title: 强大的博客们
 author: 犄角蛙
 date: 2022-05-04

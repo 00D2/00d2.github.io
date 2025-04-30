@@ -1,5 +1,5 @@
 ---
-icon: f5
+icon: simple-icons:f5
 title: 通过shell脚本将f5配置备份至远端SFTP服务器
 author: 犄角蛙
 date: 2022-09-09

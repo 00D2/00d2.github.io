@@ -1,5 +1,5 @@
 ---
-icon: git
+icon: fa-brands:git
 author: 雷恩Layne
 title: Github报错OpenSSL SSL_connect
 date: 2021-03-01

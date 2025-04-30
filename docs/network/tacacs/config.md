@@ -1,6 +1,6 @@
 ---
 index: false
-icon: network
+icon: streamline:network
 author: 曹世宏
 title: 各厂商交换机TACACS配置
 date: 2022-08-27

@@ -1,6 +1,6 @@
 ---
 index: false
-icon: network
+icon: streamline:network
 author: 犄角蛙
 title: 网络
 date: 2022-05-04

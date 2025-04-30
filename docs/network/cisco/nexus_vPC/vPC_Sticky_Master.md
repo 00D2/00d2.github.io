@@ -1,5 +1,5 @@
 ---
-icon: cisco
+icon: cib:cisco
 author: Cisco
 title: Cisco Nexus vPC 之 Sticky Master
 date: 2022-05-14

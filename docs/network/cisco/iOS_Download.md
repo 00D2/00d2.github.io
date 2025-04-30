@@ -1,5 +1,5 @@
 ---
-icon: cisco
+icon: cib:cisco
 author: 犄角蛙
 title: Cisco iOS下载网站
 date: 2023-01-05

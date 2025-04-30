@@ -1,5 +1,5 @@
 ---
-icon: f5
+icon: simple-icons:f5
 title: f5限制部分源IP访问VS业务
 author: 犄角蛙
 date: 2022-06-09

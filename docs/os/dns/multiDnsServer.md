@@ -1,6 +1,6 @@
 ---
 index: true
-icon: dns
+icon: eos-icons:dns
 title: 客户端配置单个或多个DNS的行为
 author: 犄角蛙
 date: 2022-06-13

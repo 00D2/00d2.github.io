@@ -7,7 +7,7 @@ export const network_f5 = arraySidebar([
   "autoCfgBakToRomteSFTP",
   {
     text: "irule",
-    icon: "f5",
+    icon: "simple-icons:f5",
     prefix: "irule/",
     collapsible: true,
     children:[

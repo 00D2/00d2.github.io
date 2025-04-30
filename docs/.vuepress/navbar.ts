@@ -4,7 +4,7 @@ export default navbar([
   "/",
   { 
     text: "操作系统",
-    icon: "OS",
+    icon: "ix:operating-system",
     children:[
       { 
         text: "Linux",
@@ -13,12 +13,12 @@ export default navbar([
       },
       { 
         text: "Windows",
-        icon: "windows",
+        icon: "mingcute:windows-fill",
         link: "/os/windows/",
       },
       { 
         text: "DNS",
-        icon: "dns",
+        icon: "eos-icons:dns",
         link: "/os/dns/",
       },
       { 
@@ -26,20 +26,25 @@ export default navbar([
         icon: "software",
         link: "/os/software/",
       },
+      {
+        text: "AI",
+        icon: "hugeicons:artificial-intelligence-04",
+        link: "/os/AI/",
+      },
     ],
   },
   { 
     text: "网络技术",
-    icon: "network",
+    icon: "streamline:network",
     children:[
       {
         text: "Cisco",
-        icon: "cisco",
+        icon: "cib:cisco",
         link: "/network/cisco/"
       },
       {
         text: "f5",
-        icon: "f5",
+        icon: "simple-icons:f5",
         link: "/network/f5/",
       },
       {
@@ -51,16 +56,16 @@ export default navbar([
   },
   { 
     text: "工具",
-    icon: "tools",
+    icon: "ri:tools-fill",
     children:[
       {
         text: "Office",
-        icon: "office",
+        icon: "arcticons:microsoft-office",
         link: "/tools/Office/"
       },
       {
         text: "Git",
-        icon: "git",
+        icon: "fa-brands:git",
         link: "/tools/Git/",
       },
       {
@@ -75,7 +80,7 @@ export default navbar([
       },
       {
         text: "Docker",
-        icon: "docker",
+        icon: "mdi:docker",
         link: "/tools/Docker/",
       },
       {
@@ -90,7 +95,7 @@ export default navbar([
       },
       {
         text: "好用的工具",
-        icon: "tools",
+        icon: "ri:tools-fill",
         link: "/tools/awesomeTools",
       },
   ]},
@@ -105,8 +110,8 @@ export default navbar([
   //},
   {
     text: "强大的博客们",
-    icon: "blog",
+    icon: "fa6-solid:blog",
     link: "/blog",
   },
-  { text: "关于", icon: "about", link: "/about/" },
+  { text: "关于", icon: "ix:about", link: "/about/" },
 ]);

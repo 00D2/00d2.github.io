@@ -9,7 +9,7 @@ export default hopeTheme({
     url: "https://blog.jinguo.link",
     },
   
-    logo: "/logo.svg",
+    logo: "images/favicon-96x96.png",
   
     repo: "https://www.github.com/00D2/00d2.github.io",
   
@@ -52,8 +52,9 @@ export default hopeTheme({
       blog: true,
 
       icon: {
-        assets: "//at.alicdn.com/t/c/font_3419447_d2aisik7pt6.css",
-        prefix: "iconfont icon-",
+        assets: "iconify",
+        //assets: "//at.alicdn.com/t/c/font_3419447_d2aisik7pt6.css",
+        //prefix: "iconify",
       },
 
       docsearch: {

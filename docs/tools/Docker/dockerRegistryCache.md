@@ -1,5 +1,5 @@
 ---
-icon: docker
+icon: mdi:docker
 title: 使用registry配置dockerhub缓存
 author: 犄角蛙
 date: 2024-11-04

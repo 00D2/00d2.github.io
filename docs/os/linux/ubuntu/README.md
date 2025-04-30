@@ -1,6 +1,6 @@
 ---
 index: false
-icon: ubuntu
+icon: mdi:ubuntu
 author: 犄角蛙
 title: Ubuntu
 date: 2022-05-04

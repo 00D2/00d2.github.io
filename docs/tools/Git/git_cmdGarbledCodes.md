@@ -1,5 +1,5 @@
 ---
-icon: git
+icon: fa-brands:git
 author: sunpro518
 title: git cmd中文乱码解决方法
 date: 2018-07-30

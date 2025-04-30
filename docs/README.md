@@ -1,7 +1,7 @@
 ---
 home: true
 title: 主页
-icon: home
+icon: ion:home
 heroText: 食色，性也
 heroStyle:
   min-height: 720px

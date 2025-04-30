@@ -1,5 +1,5 @@
 ---
-icon: f5
+icon: simple-icons:f5
 title: 基于XFF的地址进行会话保持
 author: 犄角蛙
 date: 2024-11-03

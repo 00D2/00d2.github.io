@@ -2,7 +2,7 @@
 index: false
 icon: AI
 author: 犄角蛙
-title: 操作系统
+title: NUMA
 date: 2025-05-26
 category:
   - AI

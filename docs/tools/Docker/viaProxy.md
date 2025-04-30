@@ -1,5 +1,5 @@
 ---
-icon: docker
+icon: mdi:docker
 author: 犄角蛙
 date: 2024-04-01
 category:

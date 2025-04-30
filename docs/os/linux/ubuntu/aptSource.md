@@ -1,5 +1,5 @@
 ---
-icon: ubuntu
+icon: mdi:ubuntu
 author: 犄角蛙
 title: Ubuntu更改镜像源
 date: 2022-07-15

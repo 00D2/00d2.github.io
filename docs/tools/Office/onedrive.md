@@ -1,5 +1,5 @@
 ---
-icon: office
+icon: mdi:microsoft-onedrive
 author: Rat's
 title: 适用于Linux的OneDrive客户端，支持VPS和OneDrive之间实时同步/备份
 date: 2018-09-21

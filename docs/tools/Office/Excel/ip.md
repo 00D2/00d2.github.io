@@ -1,6 +1,6 @@
 ---
 index: true
-icon: office-excel
+icon: file-icons:microsoft-excel
 title: 通过Excel函数整理IP地址信息
 author: 犄角蛙
 date: 2022-12-09

@@ -1,5 +1,5 @@
 ---
-icon: ubuntu
+icon: mdi:ubuntu
 author: freesharer
 title: Ubuntu修改IP地址
 date: 2022-07-15

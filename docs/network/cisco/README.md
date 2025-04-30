@@ -1,6 +1,6 @@
 ---
 index: false
-icon: cisco
+icon: cib:cisco
 author: 犄角蛙
 title: 思科
 date: 2022-05-04

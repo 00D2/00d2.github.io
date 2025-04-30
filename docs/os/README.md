@@ -1,6 +1,6 @@
 ---
 index: false
-icon: OS
+icon: ix:operating-system
 author: 犄角蛙
 title: 操作系统
 date: 2022-05-04

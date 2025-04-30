@@ -1,5 +1,5 @@
 ---
-icon: f5
+icon: simple-icons:f5
 title: Http头部HOST为空Nginx返回400错误
 author: 乐码农
 date: 2018-08-16

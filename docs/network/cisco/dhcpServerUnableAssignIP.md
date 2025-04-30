@@ -1,5 +1,5 @@
 ---
-icon: cisco
+icon: cib:cisco
 author: gorquan
 title: cisco dhcp server无法分配IP地址排查思路
 date: 2020-08-03

@@ -1,5 +1,5 @@
 ---
-icon: git
+icon: fa-brands:git
 author: 犄角蛙
 title: git安装及初始化
 date: 2024-03-19

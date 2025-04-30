@@ -1,6 +1,6 @@
 ---
 index: true
-icon: dns
+icon: eos-icons:dns
 title: EDNS Client Subnet
 author: 犄角蛙
 date: 2022-07-27

@@ -1,5 +1,5 @@
 ---
-icon: git
+icon: fa-brands:git
 author: hanyuntao
 title: git上传文件
 date: 2017-03-31

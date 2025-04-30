@@ -1,5 +1,5 @@
 ---
-icon: git
+icon: fa-brands:git
 author: potao1314
 title: git修改远程仓库地址
 date: 2019-07-18

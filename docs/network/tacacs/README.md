@@ -1,6 +1,6 @@
 ---
 index: false
-icon: network
+icon: streamline:network
 author: 犄角蛙
 title: TACACS
 date: 2022-05-04
