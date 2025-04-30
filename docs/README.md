@@ -6,6 +6,7 @@ heroText: 食色，性也
 heroStyle:
   min-height: 720px
 bgImage: images/back.svg
+bgImageDark: images/back-dark.svg
 bgImageStyle:
   background-attachment: fixed
 
