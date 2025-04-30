@@ -1,0 +1,57 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <title>Antlered Frog Wallpaper (Night Mode, Bottom-Right)</title>
+  <desc>Night mode version: A cute frog with antlers on a dark blue/purple gradient background, positioned towards the bottom-right.</desc>
+
+  <!-- Define the NIGHT MODE gradient background -->
+  <defs>
+    <linearGradient id="bgGradientNightModeBottomRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A237E; stop-opacity:1" /> <!-- Dark Indigo -->
+      <stop offset="100%" style="stop-color:#283593; stop-opacity:1" /> <!-- Slightly Lighter Dark Indigo -->
+      <!-- You can experiment with other dark colors like #0d1117, #2c0b50 etc. -->
+    </linearGradient>
+  </defs>
+
+  <!-- Background Rectangle -->
+  <rect width="1920" height="1080" fill="url(#bgGradientNightModeBottomRight)" />
+
+  <!-- Frog Group positioned towards BOTTOM-RIGHT -->
+  <!-- Adjusted translate X value for right shift, kept Y for bottom position -->
+  <g transform="translate(1200, 450) scale(9)"> 
+  <!-- You can fine-tune 1200 (right) and 450 (down) for exact placement -->
+
+    <!-- Antlers (Brown) - Smoother Version -->
+    <g fill="#A1887F"> <!-- Brown color for antlers -->
+      <!-- Left Antler - Smoother Path -->
+      <path d="M 40 35 C 38 25, 35 18, 30 18 C 25 18, 27 25, 33 30 Z" /> 
+      <!-- Left Tine - Smoother Path -->
+       <path d="M 32 25 C 26 20, 22 20, 21 25 C 20 30, 26 30, 32 25 Z" /> 
+               
+      <!-- Right Antler - Smoother Path (Mirrored) -->
+      <path d="M 60 35 C 62 25, 65 18, 70 18 C 75 18, 73 25, 67 30 Z" />
+      <!-- Right Tine - Smoother Path (Mirrored) -->
+       <path d="M 68 25 C 74 20, 78 20, 79 25 C 80 30, 74 30, 68 25 Z" /> 
+    </g>
+
+    <!-- Frog Body (Green) -->
+    <ellipse cx="50" cy="60" rx="30" ry="25" fill="#8BC34A" /> <!-- Lime Green -->
+
+    <!-- Frog Eyes -->
+    <g>
+      <!-- Eye Whites -->
+      <circle cx="38" cy="50" r="10" fill="white" />
+      <circle cx="62" cy="50" r="10" fill="white" />
+      <!-- Pupils (Black) -->
+      <circle cx="40" cy="51" r="5" fill="black" />
+      <circle cx="60" cy="51" r="5" fill="black" />
+       <!-- Eye Highlights -->
+      <circle cx="42" cy="49" r="2" fill="white" />
+      <circle cx="62" cy="49" r="2" fill="white" />
+    </g>
+
+    <!-- Frog Smile -->
+    <path d="M 40 70 Q 50 78, 60 70" stroke="#558B2F" stroke-width="1.5" fill="none" stroke-linecap="round" />
+
+  </g>
+
+</svg>
