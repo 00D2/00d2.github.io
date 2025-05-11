@@ -1,5 +1,5 @@
 ---
-icon: shell
+icon: arcticons:shell-terminal
 author: 犄角蛙
 title: Linux Shell命令
 date: 2022-05-14
@@ -15,15 +15,7 @@ tag:
 
 ## Linux命令大全
 
-
-
 [Linux命令大全](https://www.linuxcool.com/)
-
-
-
-
-
-
 
 - echo $PATH  
   显示PATH变量
@@ -40,10 +32,6 @@ tag:
   - ``
   - 例：ls $(which bash)
   - 例：ls \`which bash`
-
-
-
-
 
 ```shell
 #!/bin/bash

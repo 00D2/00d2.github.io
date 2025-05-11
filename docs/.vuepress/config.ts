@@ -2,7 +2,6 @@ import { defineUserConfig } from "vuepress";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import theme from "./theme";
 import { viteBundler } from '@vuepress/bundler-vite';
-import { shikiPlugin } from '@vuepress/plugin-shiki';
 
 export default defineUserConfig({
   lang: "zh-CN",

@@ -1,5 +1,5 @@
 ---
-icon: uil:linux
+icon: mdi:ssh
 author: 犄角蛙
 title: SSH及SFTP参数及使用
 date: 2022-08-22

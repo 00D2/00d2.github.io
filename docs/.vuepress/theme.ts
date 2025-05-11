@@ -20,7 +20,6 @@ export default hopeTheme({
   
     // sidebar
     sidebar: paSidebarConig,
-    headerDepth: 4,
     
     //footer: 'MIT 协议 | Copyright © 2022-present <a href="https://github.com/00D2/00d2.github.io" rel="noopener noreferrer " target="_blank">犄角蛙</a> ',
 

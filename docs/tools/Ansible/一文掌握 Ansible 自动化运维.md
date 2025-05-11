@@ -1,5 +1,5 @@
 ---
-icon: ansible
+icon: mdi:ansible
 author: kangvcar
 title: 一文掌握 Ansible 自动化运维
 date: 2018-06-14

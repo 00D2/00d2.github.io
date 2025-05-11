@@ -1,6 +1,6 @@
 ---
 index: false
-icon: debian
+icon: mdi:debian
 author: 犄角蛙
 title: Debian
 date: 2025-04-04

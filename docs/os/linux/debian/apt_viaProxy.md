@@ -1,5 +1,5 @@
 ---
-icon: debian
+icon: mdi:debian
 author: 犄角蛙
 title: Debian配置apt使用代理
 date: 2022-07-15

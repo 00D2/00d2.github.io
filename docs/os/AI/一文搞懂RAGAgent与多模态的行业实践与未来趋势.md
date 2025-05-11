@@ -22,15 +22,12 @@ __ _ _ _ _
 4  大模型未来发展趋势
 
   
-  
-  
+
+
 大模型作为产业变革的核心引擎。通过RAG、Agent与多模态技术正在重塑AI与现实的交互边界。三者协同演进，不仅攻克了数据时效性、专业适配等核心挑战，更推动行业从效率革新迈向业务重构。本文将解析技术演进脉络、实战经验与未来图景，为读者提供前沿趋势的全局视角与产业升级的实践指引。  
 关注腾讯云开发者，一手技术干货提前解锁👇  
-  
-  
-大模型技术正加速渗透至产业核心场景，成为驱动数字化转型的智能引擎。全球机器学习大会（ML-
-Summit）聚焦大模型技术的创新突破与产业实践，深入探讨其前沿方向与落地路径。作为AI发展的核心驱动力，  检索增强生成（RAG）
-通过动态知识融合技术突破大模型的静态知识边界；  智能体（Agent）  借助自主决策与多任务协同能力重构人机协作范式；  多模态大模型
+
+大模型技术正加速渗透至产业核心场景，成为驱动数字化转型的智能引擎。全球机器学习大会（ML-Summit）聚焦大模型技术的创新突破与产业实践，深入探讨其前沿方向与落地路径。作为AI发展的核心驱动力，  检索增强生成（RAG）通过动态知识融合技术突破大模型的静态知识边界；  智能体（Agent）借助自主决策与多任务协同能力重构人机协作范式；  多模态大模型
 则依托跨模态语义理解技术解锁复杂场景的落地潜力。三者协同演进，不仅攻克了数据时效性、隐私安全与专业适配等关键难题，更在医疗诊断、金融风控、智能制造等领域催生从效率革新到业务重构的行业级变革。  
 ![](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe94T5HqAwtfOVyxziaJEuMS295OxKS27XEn2GWiciadInenOqnGX9lwZ9ia7oibXLcaKibGmB2npCZhSWNuA/640?wx_fmt=png&from=appmsg)
 
@@ -51,12 +48,12 @@ Agent：  大模型的智能执行中枢，赋予模型自主规划、决策与�
   
 
   
-  
+
 
 #  01
 
   
-  
+
 RAG：大模型触手  
 RAG（Retrieval-Augmented Generation，检索增强生成）
 是一种结合信息检索与生成模型的技术。其核心思想是：在生成答案前，先从外部知识库（如文档、数据库、互联网）中检索相关证据，再基于检索结果和用户输入生成更准确、可靠的回答。如下图所示为一个最简RAG示意图。  
@@ -72,7 +69,7 @@ RAG（Retrieval-Augmented Generation，检索增强生成）
 模型能力：
 大模型训练完成后模型的能力就固定了。比如：我们问ChatGPT东方甄选小作文的事情，ChatGPT表示不知道。原因是：GPT-4训练数据知识收集截止到2023年10月份。RAG通过外挂实时知识库，可以有效改善这类问题。
 
-  
+
 ![](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe94T5HqAwtfOVyxziaJEuMS29tKgbWU2NCQwtKYF9ESa5wgXxjibPY0Y5NLXz3f6rsPYhvy8E9g6m9cQ/640?wx_fmt=png&from=appmsg)
 
 ChatGPT时效性
@@ -159,12 +156,12 @@ Embeddings（长文本优化）。若需求为动态交互与终身学习（如�
   
 
   
-  
+
 
 #  02
 
   
-  
+
 Agent：大模型集成体  
 Agent技术是大模型的重要集成体，能够实现自主执行任务、做出决策和与环境互动。如图所示，海绵宝宝的形象展示一个大模型如何一步步进化为一个超强的智能体。  
 ![](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe94T5HqAwtfOVyxziaJEuMS29vpfkx6CASn9ibDk2gUE1NrBgzl5FBN5ibEIjiazJKuRDaGz7O3gKgZMuA/640?wx_fmt=png&from=appmsg)
@@ -190,7 +187,7 @@ Agent通过结合LLM、规划、反馈和工具，形成一个完整的智能系
 
 已有不少Agent开源项目，通过项目实践可加深对Agent理解。Agent实践分为两种类型：自主智能体和生成智能体。
 
-  
+
 2.2  .1  自主智能与生成智能  
 自主智能体：自主执行任务、做出决策和与环境互动的智能系统。生成智能体：利用生成模型来创造新的数据或内容的智能系统。如图所示，Auto-
 GPT（自主智能）自问自答，斯坦福小镇虚拟世界（生成智能）。  
@@ -222,7 +219,7 @@ Agent系统在处理复杂任务方面具有显著优势。
 
 单智能体与多智能体，无论在任务类型与核心技术都存在明显差别。
 
-  
+
 ![](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe94T5HqAwtfOVyxziaJEuMS29xyJgR3vg0Fia59V5BwcdUuUjNzL4L5iavuN26ibOdXicBIbAWDXUKSNicIg/640?wx_fmt=png&from=appmsg)  
 
 单智能体与多智能体对比
@@ -270,12 +267,12 @@ Agent的落地应用始终面临真实世界的复杂性挑战。要处理工业
   
 
   
-  
+
 
 #  03
 
   
-  
+
 多模态技术应用  
 
 多模态大模型的应用非常广泛，涵盖了多个行业和领域。本文分享三个团队的工作，紫东太初多模态预训练、360团队多模态世界目标检测、腾讯团队视频号多模态审核。
@@ -348,7 +345,7 @@ CV与文本任务统一  （注：  紫东太初团队在ML-Summit大会分享  
 
 疑似高违规（黑甬道）：对于疑似违规程度高的内容，并提供违规信息的预警，帮助审核员集中精力处理高违规内容。
 
-  
+
 ![](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe96fpHIJvruyicw5Q9fM7qjaupTsWr1YfALWNYWafYqZv1Uz9cxslf66VcrdMpJQaDQny9qkUHtg4Ng/640?wx_fmt=png&from=appmsg)
 
 视频号审核系统解决方案
@@ -374,12 +371,12 @@ CV与文本任务统一  （注：  紫东太初团队在ML-Summit大会分享  
   
 
   
-  
+
 
 #  04
 
   
-  
+
 大模型未来发展趋势  
 
   * 算法层面：模型将从网络架构、动态可学习、多模态对齐统一展现出全模态能力（AGI） 
@@ -410,10 +407,10 @@ CV与文本任务统一  （注：  紫东太初团队在ML-Summit大会分享  
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe96fpHIJvruyicw5Q9fM7qjaupkTNfa2IDoe6Jm7TqVwngJS9TkMIMXhTvyTiaLr7OVTicXP3bDU6utHg/640?wx_fmt=png&from=appmsg)
 
-  
+
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe975eiakGydXqTICibuXvLhyqN5sicc7ia7Cvb8nJGK2gjavrfIIYr5oicm20W8hFPvUdSm8UTzzWiaFco9Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)  
 
-  
+
 你对未来大模型的发展还有什么样的期待？  欢迎评论留言补充。我们将选取1则优质的评论，送出腾讯云定制文件袋套装  1个
 （见下图）。5月6日中午12点开奖。  
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/VY8SELNGe96Ad6VYX3tia1sGJkFMibI6902he72w3I4NqAf7H4Qx1zKv1zA4hGdpxicibSono28YAsjFbSalxRADBg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)  

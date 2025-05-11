@@ -7,7 +7,7 @@ export const linux = arraySidebar([
   "ssh",
   {
     text: "文件管理",
-    icon: "linux",
+    icon: "uil:linux",
     //link: "rhel8/",
     //prefix: "rhel8/",
     collapsible: true,
@@ -18,7 +18,7 @@ export const linux = arraySidebar([
   ]},
   {
     text: "软件管理",
-    icon: "software",
+    icon: "uil:linux",
     //link: "rhel8/",
     //prefix: "rhel8/",
     collapsible: true,
@@ -28,7 +28,7 @@ export const linux = arraySidebar([
   ]},
   {
     text: "Ubuntu",
-    icon: "ubuntu",
+    icon: "mdi:ubuntu",
     link: "ubuntu/",
     prefix: "ubuntu/",
     collapsible: true,
@@ -40,7 +40,7 @@ export const linux = arraySidebar([
   },
   {
     text: "Debian",
-    icon: "debian",
+    icon: "mdi:debian",
     link: "debian/",
     prefix: "debian/",
     collapsible: true,

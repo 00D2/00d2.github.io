@@ -8,7 +8,7 @@ export default navbar([
     children:[
       { 
         text: "Linux",
-        icon: "linux",
+        icon: "uil:linux",
         link: "/os/linux/",
       },
       { 
@@ -23,7 +23,7 @@ export default navbar([
       },
       { 
         text: "生产力软件",
-        icon: "software",
+        icon: "tdesign:app",
         link: "/os/software/",
       },
       {
@@ -49,7 +49,7 @@ export default navbar([
       },
       {
         text: "其他",
-        icon: "other",
+        icon: "basil:other-1-outline",
         link: "/network/other/"
       },
     ],  
@@ -70,12 +70,12 @@ export default navbar([
       },
       {
         text: "Ansible",
-        icon: "ansible",
+        icon: "mdi:ansible",
         link: "/tools/Ansible/",
       },
       {
         text: "Travis CI",
-        icon: "travisci",
+        icon: "devicon-plain:travis",
         link: "/tools/Travis CI/",
       },
       {
@@ -85,12 +85,12 @@ export default navbar([
       },
       {
         text: "K8S",
-        icon: "kubernetes",
+        icon: "mdi:kubernetes",
         link: "/tools/K8S/",
       },
       {
         text: "Vuepress",
-        icon: "vue",
+        icon: "akar-icons:vue-fill",
         link: "/tools/Vuepress/",
       },
       {

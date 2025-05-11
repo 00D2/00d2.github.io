@@ -1,6 +1,6 @@
 ---
 index: false
-icon: fa-brands:github
+icon: devicon-plain:travis
 title: Travis CI
 author: 犄角蛙
 date: 2022-05-14

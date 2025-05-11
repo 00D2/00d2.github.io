@@ -1,5 +1,5 @@
 ---
-icon: disk
+icon: solar:ssd-round-linear
 author: Regnaiq
 title: Windows10本地硬盘变成了可弹出磁盘
 date: 2022-05-14

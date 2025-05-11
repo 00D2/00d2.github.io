@@ -1,5 +1,5 @@
 ---
-icon: chrome
+icon: hugeicons:chrome
 author: 犄角蛙
 date: 2024-09-29
 category:

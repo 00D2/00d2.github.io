@@ -1,5 +1,5 @@
 import { sidebar } from "vuepress-theme-hope";
-import { linux, windows, dns, software, AI, ai } from "./os";
+import { linux, windows, dns, software, AI,  } from "./os";
 import { cisco, network_f5, network_other } from "./network";
 import { ansible, docker, git, office } from "./tools";
 import { about } from "./about";
