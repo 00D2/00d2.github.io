@@ -1,3 +1,6 @@
+---
+createTime: 2025/04/26 21:15:30
+---
 ![cover_image](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Zvl9ickIYtdL6BhwV2KMibdOttSfh47UtumfgzSW5QEhON0vzyMlCqIGDwiat0OnN3eIpQWIQ01IicCyGX37Qjsn3w/0?wx_fmt=jpeg)
 
 #  一文搞懂什么是向量嵌入Embedding？

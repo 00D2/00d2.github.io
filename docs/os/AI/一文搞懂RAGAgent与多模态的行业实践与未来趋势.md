@@ -1,3 +1,6 @@
+---
+createTime: 2025/05/04 21:33:13
+---
 ![cover_image](https://mmbiz.qpic.cn/mmbiz_jpg/VY8SELNGe96fpHIJvruyicw5Q9fM7qjauzkNqpUhoExApX6CjicvO1BibsAlzIWjcP8flPFzrKoIUgEBibYII2foBQ/0?wx_fmt=jpeg)
 
 #  一文搞懂：RAG、Agent与多模态的行业实践与未来趋势

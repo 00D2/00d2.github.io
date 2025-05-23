@@ -3,10 +3,11 @@ index: false
 icon: hugeicons:artificial-intelligence-04
 author: 犄角蛙
 title: 人工智能
-date: 2025-05-26
+date: 2025-05-26T00:00:00.000Z
 category:
   - AI
   - 人工智能
+createTime: 2025/05/04 22:31:14
 ---
 
 人工智能（Artificial intelligence）
