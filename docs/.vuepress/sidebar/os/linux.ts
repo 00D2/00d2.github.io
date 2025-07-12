@@ -5,6 +5,7 @@ export const linux = arraySidebar([
   "Shell命令",
   "resetRootPasswd_RHEL",
   "ssh",
+  "KVM",
   {
     text: "文件管理",
     icon: "uil:linux",
