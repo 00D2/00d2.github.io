@@ -75,8 +75,8 @@ jobs:
         with:
           status: ${{ job.status }}
           title: Github Action部署
+          group: Github Action
           device_key: ${{ secrets.BARK_DEVICE_KEY }}
           bark_server_url: ${{ secrets.BARK_SERVER_URL }}
-          group: Github Action
         if: always() # Pick up events even if the job fails or is canceled.     
 
