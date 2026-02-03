@@ -15,7 +15,7 @@ tag:
 
   > :open_file_folder:Seafile 是一款开源的企业云盘，注重可靠性和性能。支持 Windows, Mac, Linux, iOS, Android 平台。支持文件同步或者直接挂载到本地访问。
   >
-  > 与[SeaTable](https://jinguo.tk/tools/Docker/awesomeDocker.html)均出自【海文互知】。
+  > 与[SeaTable](https://blog.jinguo.link/tools/Docker/awesomeDocker.html)均出自【海文互知】。
   >
   > 官方网站：[seafile.com](https://www.seafile.com/)
   >

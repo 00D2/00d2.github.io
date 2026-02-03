@@ -27,7 +27,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
 
       - name: Get pnpm store directory
@@ -71,12 +71,12 @@ jobs:
           branch: gh-pages
           folder: docs/.vuepress/dist
       - name: 部署结果推送至bark
-        uses: harryzcy/action-bark@v2.1.1
+        uses: harryzcy/action-bark@v2.3.1
         with:
           status: ${{ job.status }}
           title: Github Action部署
           device_key: ${{ secrets.BARK_DEVICE_KEY }}
           bark_server_url: ${{ secrets.BARK_SERVER_URL }}
-          group: "github action"
+          group: Github Action
         if: always() # Pick up events even if the job fails or is canceled.     
 
