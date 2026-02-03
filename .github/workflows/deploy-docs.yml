@@ -71,11 +71,11 @@ jobs:
           branch: gh-pages
           folder: docs/.vuepress/dist
       - name: 部署结果推送至bark
-        uses: harryzcy/action-bark@v2.3.1
+        uses: harryzcy/action-bark@v2.1.1
         with:
           status: ${{ job.status }}
           title: Github Action部署
-          #group: Github Action
+          group: Github Action
           device_key: ${{ secrets.BARK_DEVICE_KEY }}
           bark_server_url: ${{ secrets.BARK_SERVER_URL }}
         if: always() # Pick up events even if the job fails or is canceled.     
